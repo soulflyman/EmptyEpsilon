@@ -278,7 +278,7 @@ msgstr "Cruiser Drone"
 #: scripts/cpu_ship_diversification_scenario_utility.lua:202
 msgctxt "scienceDB"
 msgid "Cruiser"
-msgstr "Cruiser"
+msgstr "Kreuzer"
 
 #: scripts/cpu_ship_diversification_scenario_utility.lua:221
 msgctxt "scienceDB"
@@ -358,7 +358,7 @@ msgid ""
 "Don't forget to thank your science database librarian for making this "
 "information available. She likes cookies."
 msgstr ""
-"Eine modifizierte Dreadnought: stärkere Hülle, schwächere Schilde, ~3x "
+"Ein modifiziertes Schlachtschiff: stärkere Hülle, schwächere Schilde, ~3x "
 "höhere Impuls- und Drehgeschwindigkeit. Ein Schacht für Zielsuchraketen "
 "wurde hinzugefügt."
 
@@ -425,7 +425,7 @@ msgstr "Enforcer"
 #: scripts/cpu_ship_diversification_scenario_utility.lua:458
 msgctxt "scienceDB"
 msgid "Blockade Runner"
-msgstr "Blockade Runner"
+msgstr "Blockadebrecher"
 
 #: scripts/cpu_ship_diversification_scenario_utility.lua:465
 #: scripts/cpu_ship_diversification_scenario_utility.lua:1003
@@ -665,7 +665,7 @@ msgstr "Gunship II"
 #: scripts/cpu_ship_diversification_scenario_utility.lua:821
 msgctxt "scienceDB"
 msgid "Adv. Gunship"
-msgstr "Adv. Gunship"
+msgstr "Kanonenboot (verb.)"
 
 #: scripts/cpu_ship_diversification_scenario_utility.lua:843
 msgctxt "scienceDB"
@@ -1202,7 +1202,7 @@ msgstr "Tyr"
 #: scripts/cpu_ship_diversification_scenario_utility.lua:1730
 msgctxt "scienceDB"
 msgid "Battlestation"
-msgstr "Battlestation"
+msgstr "Kampfstation"
 
 #: scripts/cpu_ship_diversification_scenario_utility.lua:1741
 msgctxt "scienceDB"
@@ -1399,7 +1399,7 @@ msgstr "Service Jonque"
 #: scripts/cpu_ship_diversification_scenario_utility.lua:2088
 msgctxt "scienceDB"
 msgid "Freighter"
-msgstr "Freighter"
+msgstr "Frachter"
 
 #: scripts/cpu_ship_diversification_scenario_utility.lua:2041
 #: scripts/cpu_ship_diversification_scenario_utility.lua:2178

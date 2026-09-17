@@ -261,7 +261,7 @@ msgstr "Schlachtschiff"
 #: scripts/shiptemplates/OLD.lua:352
 msgctxt "subclass"
 msgid "Assault"
-msgstr "Dreadnought"
+msgstr "Angriff"
 
 #: scripts/shiptemplates/OLD.lua:354
 msgid ""
