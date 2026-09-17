@@ -541,7 +541,7 @@ msgstr ""
 #: scripts/scenario_06_edgeofspace.lua:841
 msgctxt "stationAssist-comms"
 msgid "Can you send a supply drop? (100rep)"
-msgstr "Können sie uns Vorräte schicken? (100 Ruf)"
+msgstr "Können Sie uns Vorräte schicken? (100 Ruf)"
 
 #: scripts/scenario_06_edgeofspace.lua:844
 #: scripts/scenario_06_edgeofspace.lua:872

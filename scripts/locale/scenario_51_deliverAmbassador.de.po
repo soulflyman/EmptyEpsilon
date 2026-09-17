@@ -597,7 +597,7 @@ msgstr "Wir könnten ein paar Zielsuchraketen gebrauchen. (jeweils %d Ruf)"
 #, lua-format
 msgctxt "ammo-comms"
 msgid "Can you restock us with HVLI? (%d rep each)"
-msgstr "Können sie unsere HGBIs wieder auffüllen (jeweils %d Ruf)"
+msgstr "Können Sie unsere HGBIs wieder auffüllen (jeweils %d Ruf)"
 
 #: scripts/scenario_51_deliverAmbassador.lua:977
 #, lua-format

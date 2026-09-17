@@ -254,7 +254,7 @@ msgstr "Diese Minen gehören nun Ihnen."
 #: scripts/scenario_81_pvp.lua:271
 msgctxt "ammo-comms"
 msgid "Can you supply us with some nukes?"
-msgstr "Können sie uns mit Nukes versorgen?"
+msgstr "Können Sie uns mit Nukes versorgen?"
 
 #: scripts/scenario_81_pvp.lua:272
 msgctxt "ammo-comms"

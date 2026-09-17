@@ -41,7 +41,7 @@ msgstr "Haben Sie Zielsuchraketen für uns?"
 #: scripts/comms_station.lua:99
 msgctxt "ammo-comms"
 msgid "Can you restock us with HVLI?"
-msgstr "Können sie unsere HGBIs wieder auffüllen?"
+msgstr "Können Sie unsere HGBIs wieder auffüllen?"
 
 #: scripts/comms_station.lua:100
 msgctxt "ammo-comms"
