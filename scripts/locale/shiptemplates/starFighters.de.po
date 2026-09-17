@@ -15,7 +15,7 @@ msgstr ""
 #: scripts/shiptemplates/starFighters.lua:13
 msgctxt "ship"
 msgid "MT52 Hornet"
-msgstr ""
+msgstr "MT52 Hornet"
 
 #: scripts/shiptemplates/starFighters.lua:13
 #: scripts/shiptemplates/starFighters.lua:65
@@ -43,7 +43,7 @@ msgstr ""
 #: scripts/shiptemplates/starFighters.lua:23
 msgctxt "ship"
 msgid "MU52 Hornet"
-msgstr ""
+msgstr "MU52 Hornet"
 
 #: scripts/shiptemplates/starFighters.lua:25
 msgid ""
@@ -56,7 +56,7 @@ msgstr ""
 #: scripts/shiptemplates/starFighters.lua:31
 msgctxt "playerShip"
 msgid "MP52 Hornet"
-msgstr ""
+msgstr "MP52 Hornet"
 
 #: scripts/shiptemplates/starFighters.lua:32
 msgid ""
@@ -71,7 +71,7 @@ msgstr ""
 #: scripts/shiptemplates/starFighters.lua:65
 msgctxt "ship"
 msgid "Adder MK5"
-msgstr ""
+msgstr "Adder MK5"
 
 #: scripts/shiptemplates/starFighters.lua:65
 msgctxt "subclass"
@@ -92,7 +92,7 @@ msgstr ""
 #: scripts/shiptemplates/starFighters.lua:78
 msgctxt "ship"
 msgid "Adder MK4"
-msgstr ""
+msgstr "Adder MK4"
 
 #: scripts/shiptemplates/starFighters.lua:80
 msgid ""
@@ -110,7 +110,7 @@ msgstr ""
 #: scripts/shiptemplates/starFighters.lua:88
 msgctxt "ship"
 msgid "Adder MK3"
-msgstr ""
+msgstr "Adder MK3"
 
 #: scripts/shiptemplates/starFighters.lua:89
 msgid ""
@@ -132,7 +132,7 @@ msgstr ""
 #: scripts/shiptemplates/starFighters.lua:94
 msgctxt "ship"
 msgid "Adder MK6"
-msgstr ""
+msgstr "Adder MK6"
 
 #: scripts/shiptemplates/starFighters.lua:96
 msgid ""
@@ -147,7 +147,7 @@ msgstr ""
 #: scripts/shiptemplates/starFighters.lua:100
 msgctxt "ship"
 msgid "Adder MK7"
-msgstr ""
+msgstr "Adder MK7"
 
 #: scripts/shiptemplates/starFighters.lua:102
 msgid ""
@@ -166,7 +166,7 @@ msgstr ""
 #: scripts/shiptemplates/starFighters.lua:106
 msgctxt "ship"
 msgid "Adder MK8"
-msgstr ""
+msgstr "Adder MK8"
 
 #: scripts/shiptemplates/starFighters.lua:108
 msgid ""
@@ -185,7 +185,7 @@ msgstr ""
 #: scripts/shiptemplates/starFighters.lua:113
 msgctxt "ship"
 msgid "Adder MK9"
-msgstr ""
+msgstr "Adder MK9"
 
 #: scripts/shiptemplates/starFighters.lua:115
 msgid ""
@@ -205,7 +205,7 @@ msgstr ""
 #: scripts/shiptemplates/starFighters.lua:121
 msgctxt "ship"
 msgid "WX-Lindworm"
-msgstr ""
+msgstr "WX-Lindworm"
 
 #: scripts/shiptemplates/starFighters.lua:121
 msgctxt "subclass"
@@ -229,7 +229,7 @@ msgstr ""
 #: scripts/shiptemplates/starFighters.lua:136
 msgctxt "playerShip"
 msgid "ZX-Lindworm"
-msgstr ""
+msgstr "ZX-Lindworm"
 
 #: scripts/shiptemplates/starFighters.lua:137
 msgid ""
