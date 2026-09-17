@@ -1199,9 +1199,7 @@ msgctxt "stationStory-comms"
 msgid ""
 "The station is named after Dr. Noonian Soong, the famous android researcher "
 "and builder"
-msgstr ""
-"Die Station ist nach Dr. Noonian Soong benannt, dem berühmten Androiden-"
-"Forscher und -Bauer."
+msgstr "Die Station ist nach Dr. Noonian Soong benannt, dem berühmten Androidenforscher und -bauer."
 
 #: scripts/scenario_49_allies.lua:2487
 msgctxt "scienceDescription-station"
@@ -2389,7 +2387,7 @@ msgstr "     %s: %i, %i\n"
 #: scripts/scenario_49_allies.lua:3930
 msgctxt "trade-comms"
 msgid "Current Cargo:\n"
-msgstr "Derzeitige Fracht an Bord:\n"
+msgstr "Aktuelle Fracht:\n"
 
 #: scripts/scenario_49_allies.lua:3937
 #, lua-format
@@ -2429,18 +2427,14 @@ msgctxt "trade-comms"
 msgid ""
 "\n"
 "Insufficient cargo space for purchase"
-msgstr ""
-"\n"
-"Unzureichender Laderaum für den Kauf"
+msgstr "\nUnzureichender Laderaum für den Kauf."
 
 #: scripts/scenario_49_allies.lua:3959 scripts/scenario_49_allies.lua:3964
 msgctxt "needRep-comms"
 msgid ""
 "\n"
 "Insufficient reputation for purchase"
-msgstr ""
-"\n"
-"Unzureichender Ruf für den Kauf"
+msgstr "\nUnzureichender Ruf für den Kauf."
 
 #: scripts/scenario_49_allies.lua:3961 scripts/scenario_49_allies.lua:3995
 #: scripts/scenario_49_allies.lua:4027 scripts/scenario_49_allies.lua:4059
@@ -2847,7 +2841,7 @@ msgstr ""
 #: scripts/scenario_49_allies.lua:4185
 msgctxt "station-comms"
 msgid "You need to stay docked for that action."
-msgstr "Für diese Aktion müssen Sie angedockt sein."
+msgstr "Für diese Aktion müssen Sie angedockt bleiben."
 
 #: scripts/scenario_49_allies.lua:4189
 msgctxt "ammo-comms"
@@ -2857,7 +2851,7 @@ msgstr "Wir handeln nicht mit Massenvernichtungswaffen."
 #: scripts/scenario_49_allies.lua:4190
 msgctxt "ammo-comms"
 msgid "We do not deal in weapons of mass disruption."
-msgstr "Wir handeln nicht mit Massenstörungswaffen."
+msgstr "Wir handeln nicht mit Störwaffen."
 
 #: scripts/scenario_49_allies.lua:4191
 msgctxt "ammo-comms"
@@ -2875,13 +2869,12 @@ msgstr ""
 #: scripts/scenario_49_allies.lua:4204
 msgctxt "ammo-comms"
 msgid "All nukes are charged and primed for destruction."
-msgstr "Alle Nukes sind geladen und bereit zu zerstören."
+msgstr "Alle Nukes sind geladen."
 
 #: scripts/scenario_49_allies.lua:4206
 msgctxt "ammo-comms"
 msgid "Sorry, sir, but you are as fully stocked as I can allow."
-msgstr ""
-"Es tut mir leid, aber sie haben bereits das zulässige Höchstlimit erreicht."
+msgstr "Es tut mir leid, aber Sie haben bereits das zulässige Höchstlimit erreicht."
 
 #: scripts/scenario_49_allies.lua:4214 scripts/scenario_49_allies.lua:4229
 msgctxt "ammo-comms"
@@ -2929,18 +2922,14 @@ msgctxt "station-comms"
 msgid ""
 "Good day, officer.\n"
 "If you need supplies, please dock with us first."
-msgstr ""
-"Guten Tag,\n"
-"wenn Sie Nachschub brauchen, docken Sie bitte zuerst bei uns an."
+msgstr "Guten Tag, \nwenn Sie Vorräte benötigen, docken Sie bitte bei uns an."
 
 #: scripts/scenario_49_allies.lua:4254
 msgctxt "station-comms"
 msgid ""
 "Greetings.\n"
 "If you want to do business, please dock with us first."
-msgstr ""
-"Guten Tag.\n"
-"Wenn Sie Geschäfte machen wollen, docken Sie bitte zuerst bei uns an."
+msgstr "Guten Tag,\nwenn Sie mit uns handeln wollen, docken Sie bitte bei uns an."
 
 #: scripts/scenario_49_allies.lua:4257
 msgctxt "station-comms"
@@ -3217,7 +3206,7 @@ msgstr "Wir haben ein Versorgungsschiff zu Wegpunkt %d geschickt"
 #: scripts/scenario_49_allies.lua:4533 scripts/scenario_49_allies.lua:4553
 msgctxt "needRep-comms"
 msgid "Not enough reputation!"
-msgstr "Ihr Ruf ist nicht ausreichend!"
+msgstr "Ihr Ruf ist nicht ausreichend."
 
 #: scripts/scenario_49_allies.lua:4501
 #, lua-format
@@ -3327,12 +3316,12 @@ msgstr "Unterstützen Sie uns."
 #: scripts/scenario_49_allies.lua:4676
 msgctxt "shipAssist-comms"
 msgid "Heading toward you to assist."
-msgstr "Wir sind unterwegs, um Sie zu unterstützen."
+msgstr "Ich mache mich auf den Weg, um Ihnen zu helfen."
 
 #: scripts/scenario_49_allies.lua:4681
 msgctxt "shipAssist-comms"
 msgid "Report status"
-msgstr "Status melden."
+msgstr "Statusbericht"
 
 #: scripts/scenario_49_allies.lua:4682
 #, lua-format
@@ -3362,7 +3351,7 @@ msgstr "Heckschilde: %d%%\n"
 #, lua-format
 msgctxt "shipAssist-comms"
 msgid "Shield %s: %d%%\n"
-msgstr "Schild %s: %d%%\n"
+msgstr "Schilde %s: %d%%\n"
 
 #: scripts/scenario_49_allies.lua:4698
 #, lua-format
@@ -3374,7 +3363,7 @@ msgstr "%s Raketen: %d/%d\n"
 #, lua-format
 msgctxt "shipAssist-comms"
 msgid "Dock at %s"
-msgstr "An %s andocken"
+msgstr "Docke bei %s an"
 
 #: scripts/scenario_49_allies.lua:4708
 #, lua-format
@@ -3427,7 +3416,7 @@ msgstr "Gekauft"
 #: scripts/scenario_49_allies.lua:4866
 msgctxt "shipEnemy-comms"
 msgid "We will see to your destruction!"
-msgstr "Wir werden für eure Vernichtung sorgen!"
+msgstr "Wir sehen Ihrer Zerstörung entgegen!"
 
 #: scripts/scenario_49_allies.lua:4867
 msgctxt "shipEnemy-comms"
@@ -3503,7 +3492,7 @@ msgstr ""
 #: scripts/scenario_49_allies.lua:4887
 msgctxt "shipEnemy-comms"
 msgid "Stay out of our way, or your death will amuse us extremely!"
-msgstr "Gehen Sie uns aus dem Weg, oder Ihr Tod wird uns sehr amüsieren!"
+msgstr "Gehen Sie uns aus dem Weg, oder Ihr Tod wird uns köstlich amüsieren!"
 
 #: scripts/scenario_49_allies.lua:4889
 msgctxt "shipEnemy-comms"
@@ -3514,24 +3503,17 @@ msgid ""
 "Generating appropriate response for target from human language archives.\n"
 ":Do not cross us:\n"
 "Communication halted."
-msgstr ""
-"Eins Null Eins.\n"
-"Nichtbinäre Kommunikation erkannt. Wechsle zu universeller Sprache.\n"
-"Generiere angemessene Antwort aus menschlichen Archiven.\n"
-"\n"
-":Kommen Sie uns nicht in die Quere.:\n"
-"\n"
-"Verbindung beendet."
+msgstr "Eins Null Eins.\n\nNichtbinäre Kommunikation erkannt. Wechsle zu universeller Sprache.\n\nGeneriere angemessene Antwort aus menschlichen Archiven.\n\n:Kommen Sie uns nicht in die Quere.:\n\nVerbindung beendet."
 
 #: scripts/scenario_49_allies.lua:4890
 msgctxt "shipEnemy-comms"
 msgid "EXECUTE: SELFDESTRUCT"
-msgstr "AUSFÜHREN DER SELBSTZERSTÖRUNG"
+msgstr "FÜHRE AUS: SELBSTZERSTÖRUNG"
 
 #: scripts/scenario_49_allies.lua:4891
 msgctxt "shipEnemy-comms"
 msgid "Rogue command received. Targeting source."
-msgstr "Abtrünnigen Befehl empfangen. Greife Quelle an."
+msgstr "Schadhafter Befehl entdeckt. Erfasse Quelle."
 
 #: scripts/scenario_49_allies.lua:4892
 msgctxt "shipEnemy-comms"
@@ -3553,7 +3535,7 @@ msgstr ""
 #: scripts/scenario_49_allies.lua:4895
 msgctxt "shipEnemy-comms"
 msgid "<Transmit 'The Itsy-Bitsy Spider' on all wavelengths>"
-msgstr "<Senden von 'The Itsy-Bitsy Spider' auf allen Wellenlängen>"
+msgstr "<Senden von 'The Itsy-Bitsy Spider' auf allen Kanälen>"
 
 #: scripts/scenario_49_allies.lua:4896
 msgctxt "shipEnemy-comms"
@@ -3570,7 +3552,7 @@ msgstr "Der Schwarm hat wichtigeres zu tun als Schädlingsbekämpfung."
 #: scripts/scenario_49_allies.lua:4899
 msgctxt "shipEnemy-comms"
 msgid "Mind your own business!"
-msgstr "Kümmern Sie sich um Ihren eigenen Kram!"
+msgstr "Kümmern Sie sich um Ihre eigenen Angelegenheiten!"
 
 #: scripts/scenario_49_allies.lua:4926
 msgctxt "trade-comms"

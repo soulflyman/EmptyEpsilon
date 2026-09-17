@@ -37,7 +37,7 @@ msgstr "Feinde"
 
 msgctxt "setting"
 msgid "Configures the amount of enemies spawned in the scenario."
-msgstr "Legt die Anzahl der im Szenario gespawnten Feinde fest."
+msgstr "Legt die Anzahl der im Szenario gespawnten feindliche Schiffe fest."
 
 msgctxt "Enemies"
 msgid "Easy"

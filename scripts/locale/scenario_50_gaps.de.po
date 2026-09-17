@@ -38,7 +38,7 @@ msgstr "Feinde"
 
 msgctxt "setting"
 msgid "Configures strength and/or number of enemies in this scenario"
-msgstr " Stärke und/oder Anzahl von feindlichen Schiffen im Szenario"
+msgstr "Bestimmt Stärke und/oder Anzahl von feindlichen Schiffen im Szenario"
 
 msgctxt "Enemies"
 msgid "Easy"
@@ -70,7 +70,7 @@ msgstr "Extrem"
 
 msgctxt "Enemies"
 msgid "Much stronger, many more enemies"
-msgstr " mehr, viel stärkere Feinde"
+msgstr "Viel mehr, viel stärkere Feinde"
 
 msgctxt "Enemies"
 msgid "Quixotic"
@@ -745,7 +745,7 @@ msgstr "Kaufe 1 %s für %i Ruf"
 #: scripts/scenario_50_gaps.lua:946 scripts/scenario_50_gaps.lua:1130
 msgctxt "station-comms"
 msgid "You need to stay docked for that action."
-msgstr "Für diese Aktion müssen Sie angedockt sein."
+msgstr "Für diese Aktion müssen Sie angedockt bleiben."
 
 #: scripts/scenario_50_gaps.lua:827
 #, lua-format
@@ -1215,14 +1215,12 @@ msgstr "Wir handeln nicht mit solchen Waffen."
 #: scripts/scenario_50_gaps.lua:1143
 msgctxt "ammo-comms"
 msgid "All nukes are charged and primed for destruction."
-msgstr "Alle Nukes sind geladen und bereit zu zerstören."
+msgstr "Alle Nukes sind geladen."
 
 #: scripts/scenario_50_gaps.lua:1145
 msgctxt "ammo-comms"
 msgid "Sorry, sir, but you are as fully stocked as I can allow."
-msgstr ""
-"Tut mir leid, Sir, aber Sie sind so gut ausgestattet, wie ich es zulassen "
-"kann."
+msgstr "Es tut mir leid, aber Sie haben bereits das zulässige Höchstlimit erreicht."
 
 #: scripts/scenario_50_gaps.lua:1150
 msgctxt "needRep-comms"
@@ -1257,9 +1255,7 @@ msgctxt "station-comms"
 msgid ""
 "Greetings.\n"
 "If you want to do business, please dock with us first."
-msgstr ""
-"Guten Tag.\n"
-"Wenn Sie Geschäfte machen wollen, docken Sie bitte zuerst bei uns an."
+msgstr "Guten Tag,\nwenn Sie mit uns handeln wollen, docken Sie bitte bei uns an."
 
 #: scripts/scenario_50_gaps.lua:1173
 msgctxt "station-comms"
@@ -1275,7 +1271,7 @@ msgstr ""
 #: scripts/scenario_50_gaps.lua:1187
 msgctxt "station-comms"
 msgid "I need information"
-msgstr "Ich brauche Informationen"
+msgstr "Ich brauche Informationen."
 
 #: scripts/scenario_50_gaps.lua:1188
 msgctxt "station-comms"
@@ -1285,7 +1281,7 @@ msgstr "Welche Art von Informationen benötigen Sie?"
 #: scripts/scenario_50_gaps.lua:1189
 msgctxt "ammo-comms"
 msgid "What ordnance do you have available for restock?"
-msgstr "Welche Munitionsarten haben Sie zum Auffüllen verfügbar?"
+msgstr "Welche Munition können Sie uns anbieten?"
 
 #: scripts/scenario_50_gaps.lua:1194
 #, lua-format
@@ -1346,13 +1342,13 @@ msgstr "Wir haben keine Munition zum Auffüllen verfügbar."
 #, lua-format
 msgctxt "ammo-comms"
 msgid "We have the following type of ordnance available for restock:%s"
-msgstr "Wir haben folgende Art von Munition zum Auffüllen verfügbar: %s"
+msgstr "Wir haben folgende Munitionsart vorrätig:%s"
 
 #: scripts/scenario_50_gaps.lua:1217
 #, lua-format
 msgctxt "ammo-comms"
 msgid "We have the following types of ordnance available for restock:%s"
-msgstr "Wir haben folgende Arten von Munition zum Auffüllen verfügbar: %s"
+msgstr "Wir haben folgende Munitionsarten vorrätig:%s"
 
 #: scripts/scenario_50_gaps.lua:1231
 msgctxt "trade-comms"
@@ -1596,7 +1592,7 @@ msgstr "%sSchilde: %d%%\n"
 #, lua-format
 msgctxt "shipAssist-comms"
 msgid "%sFront Shield: %d%%\n"
-msgstr "%sFrontschilde: %d%%\n"
+msgstr "%sFrontschilde:  %d%%\n"
 
 #: scripts/scenario_50_gaps.lua:1517
 #, lua-format
@@ -1608,7 +1604,7 @@ msgstr "%sHeckschilde: %d%%\n"
 #, lua-format
 msgctxt "shipAssist-comms"
 msgid "%sShield %s: %d%%\n"
-msgstr "%sSchilde %s: %d%%\n"
+msgstr "%sSchild %s: %d%%\n"
 
 #: scripts/scenario_50_gaps.lua:1526
 #, lua-format
@@ -1620,7 +1616,7 @@ msgstr "%s%s Raketen: %d/%d\n"
 #, lua-format
 msgctxt "shipAssist-comms"
 msgid "Dock at %s"
-msgstr "An %s andocken"
+msgstr "Docke bei %s an"
 
 #: scripts/scenario_50_gaps.lua:1535
 #, lua-format
@@ -1665,7 +1661,7 @@ msgstr ""
 #: scripts/scenario_50_gaps.lua:1554
 msgctxt "shipEnemy-comms"
 msgid "Stay out of our way, or your death will amuse us extremely!"
-msgstr "Gehen Sie uns aus dem Weg, oder Ihr Tod wird uns sehr amüsieren!"
+msgstr "Gehen Sie uns aus dem Weg, oder Ihr Tod wird uns köstlich amüsieren!"
 
 #: scripts/scenario_50_gaps.lua:1556
 msgctxt "shipEnemy-comms"
@@ -1676,14 +1672,7 @@ msgid ""
 "Generating appropriate response for target from human language archives.\n"
 ":Do not cross us:\n"
 "Communication halted."
-msgstr ""
-"Eins Null Eins.\n"
-"Nichtbinäre Kommunikation erkannt. Wechsle zu universeller Sprache.\n"
-"Generiere angemessene Antwort aus menschlichen Archiven.\n"
-"\n"
-":Kommen Sie uns nicht in die Quere.:\n"
-"\n"
-"Verbindung beendet."
+msgstr "Eins Null Eins.\n\nNichtbinäre Kommunikation erkannt. Wechsle zu universeller Sprache.\n\nGeneriere angemessene Antwort aus menschlichen Archiven.\n\n:Kommen Sie uns nicht in die Quere.:\n\nVerbindung beendet."
 
 #: scripts/scenario_50_gaps.lua:1557
 msgctxt "shipEnemy-comms"
@@ -1693,7 +1682,7 @@ msgstr "FÜHRE AUS: SELBSTZERSTÖRUNG"
 #: scripts/scenario_50_gaps.lua:1558
 msgctxt "shipEnemy-comms"
 msgid "Rogue command received. Targeting source."
-msgstr "Abtrünnigen Befehl empfangen. Greife Quelle an."
+msgstr "Schadhafter Befehl entdeckt. Erfasse Quelle."
 
 #: scripts/scenario_50_gaps.lua:1559
 msgctxt "shipEnemy-comms"

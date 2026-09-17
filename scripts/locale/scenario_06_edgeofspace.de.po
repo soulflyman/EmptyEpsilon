@@ -547,8 +547,7 @@ msgstr "Können Sie uns Vorräte schicken? (100 Ruf)"
 #: scripts/scenario_06_edgeofspace.lua:872
 msgctxt "stationAssist-comms"
 msgid "You need to set a waypoint before you can request backup."
-msgstr ""
-"Sie müssen einen Wegpunkt setzen, bevor Sie Unterstützung Anfordern können."
+msgstr "Sie müssen einen Wegpunkt setzen, bevor Sie Unterstützung anfordern können."
 
 #: scripts/scenario_06_edgeofspace.lua:846
 msgctxt "stationAssist-comms"
@@ -566,7 +565,7 @@ msgstr "WP %d"
 #, lua-format
 msgctxt "stationAssist-comms"
 msgid "We have dispatched a supply ship toward WP %d"
-msgstr "Wir haben ein Versorgungsschiff zu WP %d geschickt."
+msgstr "Wir haben ein Versorgungsschiff nach WP %d entsandt."
 
 #: scripts/scenario_06_edgeofspace.lua:858
 #: scripts/scenario_06_edgeofspace.lua:906
@@ -577,7 +576,7 @@ msgstr "Wir haben ein Versorgungsschiff zu WP %d geschickt."
 #: scripts/scenario_06_edgeofspace.lua:1029
 msgctxt "needRep-comms"
 msgid "Not enough reputation."
-msgstr "Ruf nicht hoch genug."
+msgstr "Ihr Ruf ist nicht ausreichend."
 
 #: scripts/scenario_06_edgeofspace.lua:860
 #: scripts/scenario_06_edgeofspace.lua:865
@@ -686,7 +685,7 @@ msgstr "Alle Nukes sind geladen."
 #: scripts/scenario_06_edgeofspace.lua:956
 msgctxt "ammo-comms"
 msgid "You are fully loaded and ready to explode things."
-msgstr "Sie sind voll aufgestockt und bereit Dinge in die Luft zu sprengen."
+msgstr "Sie sind voll geladen und bereit, Dinge in die Luft zu jagen."
 
 #: scripts/scenario_06_edgeofspace.lua:962
 msgctxt "ammo-comms"

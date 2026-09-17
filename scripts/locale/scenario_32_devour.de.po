@@ -191,7 +191,7 @@ msgstr "Medizin"
 #: scripts/scenario_32_devour.lua:737
 msgctxt "trade-comms"
 msgid "luxury"
-msgstr "Luxus"
+msgstr "Luxusgüter"
 
 #: scripts/scenario_32_devour.lua:738
 msgctxt "trade-comms"
@@ -737,7 +737,7 @@ msgstr "Schiffe"
 #: scripts/scenario_32_devour.lua:1244
 msgctxt "scienceDB"
 msgid "Dreadnought"
-msgstr "Dreadnought"
+msgstr "Schlachtschiff"
 
 #: scripts/scenario_32_devour.lua:1246
 msgctxt "scienceDB"
@@ -1058,7 +1058,7 @@ msgstr "Wir könnten ein paar Minen gebrauchen. ("
 #: scripts/scenario_32_devour.lua:2397
 msgctxt "ammo-comms"
 msgid "How about mines? ("
-msgstr "Wie sieht es mit Minen aus?"
+msgstr "Wie sieht es mit Minen aus? ("
 
 #: scripts/scenario_32_devour.lua:2407
 msgctxt "ammo-comms"
@@ -1348,7 +1348,7 @@ msgstr "Ihr Sprungantrieb wurde auf %i 000 überladen"
 #: scripts/scenario_32_devour.lua:5182 scripts/scenario_32_devour.lua:5205
 msgctxt "needRep-comms"
 msgid "Insufficient reputation"
-msgstr "Ruf ist zu niedrig."
+msgstr "Ruf nicht ausreichend"
 
 #: scripts/scenario_32_devour.lua:2521
 msgctxt "stationServices-comms"
@@ -2013,9 +2013,7 @@ msgctxt "trade-comms"
 msgid ""
 "\n"
 "Traded"
-msgstr ""
-"\n"
-"Handel abgeschlossen"
+msgstr "\nGetauscht"
 
 #: scripts/scenario_32_devour.lua:2932 scripts/scenario_32_devour.lua:3961
 #, lua-format
@@ -2272,28 +2270,25 @@ msgstr "Alle Nukes sind geladen."
 #: scripts/scenario_32_devour.lua:3209
 msgctxt "ammo-comms"
 msgid "Sorry, sir, but you are as fully stocked as I can allow."
-msgstr ""
-"Es tut mir leid, aber sie haben bereits das zulässige Höchstlimit erreicht."
+msgstr "Es tut mir leid, aber Sie haben bereits das zulässige Höchstlimit erreicht."
 
 #: scripts/scenario_32_devour.lua:3217 scripts/scenario_32_devour.lua:3232
 msgctxt "ammo-comms"
 msgid "You are fully loaded and ready to explode things."
-msgstr "Ihr Vorrat an Nukes wurde wieder aufgefüllt."
+msgstr "Sie sind voll geladen und bereit, Dinge in die Luft zu jagen."
 
 #: scripts/scenario_32_devour.lua:3219 scripts/scenario_32_devour.lua:3234
 msgctxt "ammo-comms"
 msgid ""
 "We generously resupplied you with some weapon charges.\n"
 "Put them to good use."
-msgstr ""
-"Wir waren so frei und haben Ihre Waffenvorräte etwas aufgefüllt.\n"
-"Setzen Sie sie weise ein."
+msgstr "Wir haben Sie großzügig mit einigen Waffen ausgestattet.\nSetzen Sie sie gut ein."
 
 #: scripts/scenario_32_devour.lua:3222 scripts/scenario_32_devour.lua:3237
 #: scripts/scenario_32_devour.lua:3242
 msgctxt "needRep-comms"
 msgid "Not enough reputation."
-msgstr "Ruf nicht hoch genug."
+msgstr "Ihr Ruf ist nicht ausreichend."
 
 #: scripts/scenario_32_devour.lua:3227
 msgctxt "ammo-comms"
@@ -2714,7 +2709,7 @@ msgstr ""
 #: scripts/scenario_32_devour.lua:3661
 msgctxt "stationAssist-comms"
 msgid "To which waypoint should we deliver your supplies?"
-msgstr "An welchen Wegpunkt sollen wir das Transportschiff schicken?"
+msgstr "Zu welchem Wegpunkt sollen wir Ihre Versorgungslieferung schicken?"
 
 #: scripts/scenario_32_devour.lua:3663 scripts/scenario_32_devour.lua:3689
 #, lua-format
@@ -2726,13 +2721,13 @@ msgstr "WP %d"
 #, lua-format
 msgctxt "stationAssist-comms"
 msgid "We have dispatched a supply ship toward WP %d"
-msgstr "Wir haben ein Versorgungsschiff zu WP %d geschickt."
+msgstr "Wir haben ein Versorgungsschiff nach WP %d entsandt."
 
 #: scripts/scenario_32_devour.lua:3673 scripts/scenario_32_devour.lua:3696
 #: scripts/scenario_32_devour.lua:3748 scripts/scenario_32_devour.lua:3795
 msgctxt "needRep-comms"
 msgid "Not enough reputation!"
-msgstr "Ruf nicht hoch genug!"
+msgstr "Ihr Ruf ist nicht ausreichend."
 
 #: scripts/scenario_32_devour.lua:3683
 #, lua-format
@@ -2755,7 +2750,7 @@ msgstr "Zu welchem Wegpunkt sollen wir die Verstärkung schicken?"
 #, lua-format
 msgctxt "stationAssist-comms"
 msgid "We have dispatched %s to assist at WP %d"
-msgstr "Wir haben %s losgeschickt um Sie bei WP %d zu unterstützen."
+msgstr "Wir haben %s zur Unterstützung bei WP %d entsandt."
 
 #: scripts/scenario_32_devour.lua:3706
 msgctxt "stationAssist-comms"
@@ -2809,13 +2804,13 @@ msgstr "Wir haben %s zum Treffpunkt bei Wegpunkt %i geschickt"
 #: scripts/scenario_32_devour.lua:4859
 msgctxt "shipAssist-comms"
 msgid "What do you want?"
-msgstr "Sie wünschen?"
+msgstr "Was wollen Sie?"
 
 #: scripts/scenario_32_devour.lua:3863 scripts/scenario_32_devour.lua:4802
 #: scripts/scenario_32_devour.lua:4861
 msgctxt "shipAssist-comms"
 msgid "Sir, how can we assist?"
-msgstr "Wie können wir Ihnen behilflich sein?"
+msgstr "Wie können wir behilflich sein?"
 
 #: scripts/scenario_32_devour.lua:3865 scripts/scenario_32_devour.lua:4804
 msgctxt "shipAssist-comms"
@@ -2836,7 +2831,7 @@ msgstr "Welchen Wegpunkt sollen wir verteidigen?"
 #, lua-format
 msgctxt "shipAssist-comms"
 msgid "Defend WP %d"
-msgstr "Verteidige WP %d."
+msgstr "Verteidigen Sie WP %d."
 
 #: scripts/scenario_32_devour.lua:3873
 #, lua-format
@@ -2852,7 +2847,7 @@ msgstr "Unterstützen Sie uns."
 #: scripts/scenario_32_devour.lua:3882 scripts/scenario_32_devour.lua:4821
 msgctxt "shipAssist-comms"
 msgid "Heading toward you to assist."
-msgstr "Wir machen uns auf den Weg, um Ihnen zu helfen."
+msgstr "Ich mache mich auf den Weg, um Ihnen zu helfen."
 
 #: scripts/scenario_32_devour.lua:3887 scripts/scenario_32_devour.lua:4826
 msgctxt "shipAssist-comms"
@@ -2955,7 +2950,7 @@ msgstr "Gekauft: %s von %s."
 #: scripts/scenario_32_devour.lua:4766
 msgctxt "needRep-comms"
 msgid "Insufficient reputation for purchase"
-msgstr "Zu wenig Ruf, um den Kauf abzuschließen"
+msgstr "Unzureichender Ruf für den Kauf"
 
 #: scripts/scenario_32_devour.lua:4077 scripts/scenario_32_devour.lua:4598
 msgctxt "trade-comms"
@@ -3005,10 +3000,7 @@ msgctxt "shipEnemy-comms"
 msgid ""
 "Ktzzzsss.\n"
 "You will DIEEee weaklingsss!"
-msgstr ""
-"Ktzzzsss.\n"
-"\n"
-"Ihr werdet sterrrben, Schwächchchchlinge!!"
+msgstr "Ktzzzsss.\nIhr werdet sterrrben, Schwächchchchlinge!!"
 
 #: scripts/scenario_32_devour.lua:4117
 msgctxt "shipEnemy-comms"
@@ -3108,24 +3100,17 @@ msgid ""
 "The hive suffers no threats. Opposition to any of us is opposition to us "
 "all.\n"
 "Stand down or prepare to donate your corpses toward our nutrition."
-msgstr ""
-"Der Schwarm duldet keine Drohungen. Feindseligkeit gegen eines von uns ist "
-"Feindseligkeit gegen uns alle.\n"
-"\n"
-"Halten Sie ihre Position und machen Sie sich bereit, Ihre Körper als Nahrung "
-"zu spenden."
+msgstr "Der Schwarm duldet keine Drohungen. Feindseligkeit gegen eines von uns ist Feindseligkeit gegen uns alle.\nHalten Sie ihre Position und machen Sie sich bereit, Ihre Körper als Nahrung zu spenden."
 
 #: scripts/scenario_32_devour.lua:4145
 msgctxt "shipEnemy-comms"
 msgid "<Transmit 'The Itsy-Bitsy Spider' on all wavelengths>"
-msgstr "<Sende 'The Itsy-Bitsy Spider' auf allen Frequenzen>"
+msgstr "<Senden von 'The Itsy-Bitsy Spider' auf allen Kanälen>"
 
 #: scripts/scenario_32_devour.lua:4146
 msgctxt "shipEnemy-comms"
 msgid "We do not need permission to pluck apart such an insignificant threat."
-msgstr ""
-"Wir brauchen keine Erlaubnis um so eine unbedeutende Bedrohung zu "
-"zerpflücken."
+msgstr "Wir brauchen keine Erlaubnis, um eine so unbedeutende Bedrohung zu zerpflücken."
 
 #: scripts/scenario_32_devour.lua:4147
 msgctxt "shipEnemy-comms"
@@ -3215,18 +3200,14 @@ msgctxt "ship-comms"
 msgid ""
 "Sorry, we have no time to chat with you.\n"
 "We are on an important mission."
-msgstr ""
-"Es tut uns leid, wir haben keine Zeit, mit Ihnen zu plaudern.\n"
-"Wir befinden uns auf einer wichtige Mission."
+msgstr "Leider haben wir keine Zeit, mit Ihnen zu plaudern.\nWir sind auf einer wichtigen Mission."
 
 #: scripts/scenario_32_devour.lua:4780
 msgctxt "ship-comms"
 msgid ""
 "We have nothing for you.\n"
 "Good day."
-msgstr ""
-"Wir können nichts für Sie tun.\n"
-"Einen schönen Tag noch."
+msgstr "Wir können Ihnen nichts anbieten.\nEinen schönen Tag noch."
 
 #: scripts/scenario_32_devour.lua:4810
 #, lua-format
@@ -3796,9 +3777,7 @@ msgstr "Verfügbarer Platz: %i"
 #: scripts/scenario_32_devour.lua:6417
 msgctxt "msgMainscreen"
 msgid "Scenario needs the 'Per-system damage' option under 'Extra settings'"
-msgstr ""
-"Für das Szenario muss die Option \"Schaden pro System\" in den zusätzlichen "
-"Einstellungen aktiviert sein."
+msgstr "Für dieses Szenario muss die Option \"Schaden pro System\" unter \"Zusätzliche Einstellungen\" aktiviert sein."
 
 #: scripts/scenario_32_devour.lua:6432
 #, lua-format
