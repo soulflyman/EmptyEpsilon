@@ -1689,7 +1689,7 @@ msgstr "Mit Frederico Booker auf %s in %s über Laser-Upgrade reden"
 #, lua-format
 msgctxt "centralcommand-incCall"
 msgid "%s (%s until intersection)"
-msgstr ""
+msgstr "%s (%s bis zur Überschneidung)"
 
 #: scripts/scenario_56_carrierTurret.lua:3165
 #: scripts/scenario_56_carrierTurret.lua:3404
