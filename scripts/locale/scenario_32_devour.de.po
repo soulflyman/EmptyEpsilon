@@ -1095,7 +1095,7 @@ msgstr ""
 msgctxt "stationServices-comms"
 msgid "Cannot replenish scan probes due to fabrication unit failure."
 msgstr ""
-"Aufgrund eines Fehlers der Fertigungseinheit können keine neue Sonden "
+"Aufgrund eines Fehlers der Fertigungseinheit können keine neuen Sonden "
 "hergestellt werden."
 
 #: scripts/scenario_32_devour.lua:2427 scripts/scenario_32_devour.lua:3448

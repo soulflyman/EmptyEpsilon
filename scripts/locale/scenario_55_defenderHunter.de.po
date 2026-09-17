@@ -179,7 +179,7 @@ msgstr "Szenario endet in 55 Minuten"
 
 msgctxt "Time"
 msgid "60min"
-msgstr "3060Minuten"
+msgstr "60 Minuten"
 
 msgctxt "Time"
 msgid "Scenario ends in 60 minutes"
@@ -310,7 +310,7 @@ msgid ""
 "monitored between 1900 and 2300"
 msgstr ""
 "In Landebucht 7 gibt es interessante bewusstseinsverändernde Substanzen zu "
-"kaufen, die Landebucht  wird jedoch zwischen 1900 und 2300 überwacht."
+"kaufen, die Landebucht wird jedoch zwischen 1900 und 2300 überwacht."
 
 #: scripts/scenario_55_defenderHunter.lua:179
 msgctxt "gossip-comms"

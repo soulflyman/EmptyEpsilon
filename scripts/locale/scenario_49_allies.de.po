@@ -207,7 +207,7 @@ msgid ""
 "monitored between 1900 and 2300"
 msgstr ""
 "In Landebucht 7 gibt es interessante bewusstseinsverändernde Substanzen zu "
-"kaufen, die Landebucht  wird jedoch zwischen 19:00 und 23:00 überwacht."
+"kaufen, die Landebucht wird jedoch zwischen 19:00 und 23:00 überwacht."
 
 #: scripts/scenario_49_allies.lua:286
 msgctxt "gossip-comms"

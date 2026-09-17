@@ -161,7 +161,7 @@ msgstr "Bitte stocken Sie unsere Minen auf. (je %d Ruf)"
 #, lua-format
 msgctxt "ammo-comms"
 msgid "Can you supply us with some nukes? (%d rep each)"
-msgstr "Können Sie uns ein paar Nukes verkaufe? (%d Ruf pro Stück)"
+msgstr "Können Sie uns ein paar Nukes verkaufen? (%d Ruf pro Stück)"
 
 #: scripts/scenario_62_whatTheDickens.lua:439
 #, lua-format
@@ -410,7 +410,7 @@ msgstr ""
 #, lua-format
 msgctxt "stationAssist-comms"
 msgid "Can you send a supply drop? (%d rep)"
-msgstr "Können Sie uns eine Munitionslieferung schicken?  (%d rep)"
+msgstr "Können Sie uns eine Munitionslieferung schicken? (%d Ruf)"
 
 #: scripts/scenario_62_whatTheDickens.lua:565
 msgctxt "stationAssist-comms"
@@ -446,7 +446,7 @@ msgstr "Ruf nicht hoch genug!"
 #, lua-format
 msgctxt "stationAssist-comms"
 msgid "Please send reinforcements! (%d rep)"
-msgstr "Bitte senden Sie Verstärkung! (%d rep)"
+msgstr "Bitte senden Sie Verstärkung! (%d Ruf)"
 
 #: scripts/scenario_62_whatTheDickens.lua:591
 msgctxt "stationAssist-comms"
