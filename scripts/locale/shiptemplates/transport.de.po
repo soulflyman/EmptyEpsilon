@@ -15,5 +15,5 @@ msgstr ""
 #, lua-format
 msgctxt "ship"
 msgid "Transport %dx%d"
-msgstr ""
+msgstr "Transport %dx%d"
 #, fuzzy
