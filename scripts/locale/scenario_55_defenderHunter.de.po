@@ -282,7 +282,7 @@ msgid ""
 "Under their uniforms, the Kraylors have an extra appendage. I wonder what "
 "they use it for"
 msgstr ""
-"Unter ihren Uniformen haben die Kraylors ein zusätzliches Körperteil. Ich "
+"Unter ihren Uniformen haben die Kraylor ein zusätzliches Körperteil. Ich "
 "frage mich, wofür sie es benutzen."
 
 #: scripts/scenario_55_defenderHunter.lua:176
@@ -291,7 +291,7 @@ msgid ""
 "The Kraylors may be human navy enemies, but they make some mighty fine BBQ "
 "Mynock"
 msgstr ""
-"Die Kraylors mögen zwar Feinde der menschlichen Navy sein, aber sie machen "
+"Die Kraylor mögen zwar Feinde der menschlichen Navy sein, aber sie machen "
 "ein sehr gutes BBQ von Mynocks."
 
 #: scripts/scenario_55_defenderHunter.lua:177
@@ -300,7 +300,7 @@ msgid ""
 "The Kraylors and the Ktlitans may be nearing a cease fire from what I hear. "
 "That'd be bad news for us"
 msgstr ""
-"Soweit ich weiß, stehen die Kraylors und die Ktlitans kurz vor einem "
+"Soweit ich weiß, stehen die Kraylor und die Ktlitans kurz vor einem "
 "Waffenstillstand. Das wäre eine schlechte Nachricht für uns."
 
 #: scripts/scenario_55_defenderHunter.lua:178
@@ -336,7 +336,7 @@ msgid ""
 "Three Kraylors were captured and put in the brig"
 msgstr ""
 "Haben Sie gestern Abend die laute Verfolgungsjagd in den Gängen auf Ebene 4 "
-"gehört? Drei Kraylors wurden gefangen genommen und in die Brigg gesteckt."
+"gehört? Drei Kraylor wurden gefangen genommen und in die Brigg gesteckt."
 
 #: scripts/scenario_55_defenderHunter.lua:182
 msgctxt "gossip-comms"

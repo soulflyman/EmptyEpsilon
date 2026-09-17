@@ -3865,7 +3865,7 @@ msgid ""
 "The Kraylors seem to have discovered the location of Admiral Koshenz. We "
 "detect Kraylor ships en route to %s"
 msgstr ""
-"Die Kraylors scheinen den Aufenthaltsort von Admiral Koshenz entdeckt zu "
+"Die Kraylor scheinen den Aufenthaltsort von Admiral Koshenz entdeckt zu "
 "haben. Wir orten Kraylor-Schiffe auf dem Weg nach %s"
 
 #: scripts/scenario_49_allies.lua:6083
