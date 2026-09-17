@@ -165,7 +165,7 @@ msgstr "Senden Sie mehr Truppen (100 Ruf)"
 #: scripts/scenario_81_pvp.lua:233
 msgctxt "needRep-comms"
 msgid "Not enough reputation."
-msgstr "Ihr Ruf ist nicht hoch genug."
+msgstr "Ihr Ruf ist nicht ausreichend."
 
 #: scripts/scenario_81_pvp.lua:184
 msgctxt "reinforcements-comms"
@@ -209,7 +209,7 @@ msgstr "(Jeweils %d Ruf)"
 #: scripts/scenario_81_pvp.lua:229
 msgctxt "station-comms"
 msgid "You need to stay docked for that action."
-msgstr "Sie müssen für diese Aktion angedockt bleiben."
+msgstr "Für diese Aktion müssen Sie angedockt bleiben."
 
 #: scripts/scenario_81_pvp.lua:238 scripts/scenario_81_pvp.lua:242
 msgid "Back"
@@ -264,7 +264,7 @@ msgstr "Es tut mir leid Captain, aber Ihr Vorrat an Nukes ist bereits voll."
 #: scripts/scenario_81_pvp.lua:273
 msgctxt "ammo-comms"
 msgid "You are fully loaded and ready to explode things."
-msgstr "Ihr Vorrat an Nukes wurde wieder aufgefüllt."
+msgstr "Sie sind voll geladen und bereit, Dinge in die Luft zu jagen."
 
 #: scripts/scenario_81_pvp.lua:279
 msgctxt "ammo-comms"

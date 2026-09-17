@@ -130,14 +130,12 @@ msgctxt "station-comms"
 msgid ""
 "Good day, officer!\n"
 "What can we do for you today?"
-msgstr ""
-"Guten Tag!\n"
-"Was können wir für sie tun?"
+msgstr "Guten Tag,\nwas können wir für sie tun?"
 
 #: scripts/scenario_62_whatTheDickens.lua:416
 msgctxt "station-comms"
 msgid "Welcome to our lovely station."
-msgstr "Willkommen in unserer wunderschönen Station."
+msgstr "Willkommen auf unserer schönen Station!"
 
 #: scripts/scenario_62_whatTheDickens.lua:419
 #, lua-format
@@ -342,7 +340,7 @@ msgstr ""
 #: scripts/scenario_62_whatTheDickens.lua:490
 msgctxt "station-comms"
 msgid "You need to stay docked for that action."
-msgstr "Sie müssen für diese Aktion angedockt bleiben."
+msgstr "Für diese Aktion müssen Sie angedockt bleiben."
 
 #: scripts/scenario_62_whatTheDickens.lua:492
 msgctxt "ammo-comms"
@@ -357,71 +355,64 @@ msgstr "Wir handeln nicht mit Störwaffen."
 #: scripts/scenario_62_whatTheDickens.lua:494
 msgctxt "ammo-comms"
 msgid "We do not deal in those weapons."
-msgstr "Wie handeln nicht mit diesen Waffen."
+msgstr "Wir handeln nicht mit solchen Waffen."
 
 #: scripts/scenario_62_whatTheDickens.lua:501
 msgctxt "ammo-comms"
 msgid "All nukes are charged and primed for destruction."
-msgstr "Alle Nukes sind geladen und zur Zerstörung bereit."
+msgstr "Alle Nukes sind geladen."
 
 #: scripts/scenario_62_whatTheDickens.lua:503
 msgctxt "ammo-comms"
 msgid "Sorry, sir, but you are as fully stocked as I can allow."
-msgstr "Es tut mir leid, aber dieser Vorrat ist bereits randvoll."
+msgstr "Es tut mir leid, aber Sie haben bereits das zulässige Höchstlimit erreicht."
 
 #: scripts/scenario_62_whatTheDickens.lua:508
 msgctxt "needRep-comms"
 msgid "Not enough reputation."
-msgstr "Ruf nicht hoch genug."
+msgstr "Ihr Ruf ist nicht ausreichend."
 
 #: scripts/scenario_62_whatTheDickens.lua:513
 msgctxt "ammo-comms"
 msgid "You are fully loaded and ready to explode things."
-msgstr "Sie sind voll aufgestockt und bereit Dinge in die Luft zu sprengen."
+msgstr "Sie sind voll geladen und bereit, Dinge in die Luft zu jagen."
 
 #: scripts/scenario_62_whatTheDickens.lua:515
 msgctxt "ammo-comms"
 msgid ""
 "We generously resupplied you with some weapon charges.\n"
 "Put them to good use."
-msgstr ""
-"Wir haben ihren Munitionsvorrat entsprechend aufgefüllt.\n"
-"Setzen Sie die Geschosse weise ein."
+msgstr "Wir haben Sie großzügig mit einigen Waffen ausgestattet.\nSetzen Sie sie gut ein."
 
 #: scripts/scenario_62_whatTheDickens.lua:523
 msgctxt "station-comms"
 msgid ""
 "Good day, officer.\n"
 "If you need supplies, please dock with us first."
-msgstr ""
-"Guten Tag,\n"
-"wenn Sie Vorräte benötigen, docken Sie bitte bei uns an."
+msgstr "Guten Tag, \nwenn Sie Vorräte benötigen, docken Sie bitte bei uns an."
 
 #: scripts/scenario_62_whatTheDickens.lua:525
 msgctxt "station-comms"
 msgid ""
 "Greetings.\n"
 "If you want to do business, please dock with us first."
-msgstr ""
-"Guten Tag,\n"
-"wenn Sie mit uns Geschäfte machen wollen, docken Sie bitte bei uns an."
+msgstr "Guten Tag,\nwenn Sie mit uns handeln wollen, docken Sie bitte bei uns an."
 
 #: scripts/scenario_62_whatTheDickens.lua:563
 #, lua-format
 msgctxt "stationAssist-comms"
 msgid "Can you send a supply drop? (%d rep)"
-msgstr "Können Sie uns eine Munitionslieferung schicken? (%d Ruf)"
+msgstr "Können Sie eine Versorgungslieferung schicken? (%d Ruf)"
 
 #: scripts/scenario_62_whatTheDickens.lua:565
 msgctxt "stationAssist-comms"
 msgid "You need to set a waypoint before you can request backup."
-msgstr ""
-"Sie müssen einen Wegpunkt setzen, bevor Sie eine Lieferung anfordern können."
+msgstr "Sie müssen einen Wegpunkt setzen, bevor Sie Unterstützung anfordern können."
 
 #: scripts/scenario_62_whatTheDickens.lua:567
 msgctxt "stationAssist-comms"
 msgid "To which waypoint should we deliver your supplies?"
-msgstr "An welchen Wegpunkt sollen wir die Lieferung schicken?"
+msgstr "Zu welchem Wegpunkt sollen wir Ihre Versorgungslieferung schicken?"
 
 #: scripts/scenario_62_whatTheDickens.lua:569
 #: scripts/scenario_62_whatTheDickens.lua:595
@@ -434,19 +425,19 @@ msgstr "WP %d"
 #, lua-format
 msgctxt "stationAssist-comms"
 msgid "We have dispatched a supply ship toward WP %d"
-msgstr "Wir haben ein Versorgungsschiff zu WP %d geschickt."
+msgstr "Wir haben ein Versorgungsschiff nach WP %d entsandt."
 
 #: scripts/scenario_62_whatTheDickens.lua:579
 #: scripts/scenario_62_whatTheDickens.lua:600
 msgctxt "needRep-comms"
 msgid "Not enough reputation!"
-msgstr "Ruf nicht hoch genug!"
+msgstr "Ihr Ruf ist nicht ausreichend."
 
 #: scripts/scenario_62_whatTheDickens.lua:589
 #, lua-format
 msgctxt "stationAssist-comms"
 msgid "Please send reinforcements! (%d rep)"
-msgstr "Bitte senden Sie Verstärkung! (%d Ruf)"
+msgstr "Bitte schicken Sie Verstärkung! (%d Ruf)"
 
 #: scripts/scenario_62_whatTheDickens.lua:591
 msgctxt "stationAssist-comms"

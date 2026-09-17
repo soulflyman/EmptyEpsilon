@@ -32,7 +32,7 @@ msgstr ""
 # Scenario setting
 msgctxt "setting"
 msgid "Enemies"
-msgstr "Feindschiffe"
+msgstr "Feinde"
 
 msgctxt "setting"
 msgid "Configures the amount of enemies spawned in the scenario."

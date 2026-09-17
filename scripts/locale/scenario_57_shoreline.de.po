@@ -176,9 +176,7 @@ msgctxt "msgGM"
 msgid ""
 "Scenario version %s\n"
 " LUA version %s"
-msgstr ""
-"Scenario-Version %s\n"
-" LUA-Version %s"
+msgstr "Szenario-Version %s\n LUA-Version %s"
 
 #: scripts/scenario_57_shoreline.lua:239
 msgctxt "buttonGM"
@@ -430,7 +428,7 @@ msgstr ""
 #: scripts/scenario_57_shoreline.lua:2991
 msgctxt "scienceDescription-station"
 msgid "Shield and Armor Research"
-msgstr "Schild- und Panzerforschung"
+msgstr "Schild- und Panzerungsforschung"
 
 #: scripts/scenario_57_shoreline.lua:1198
 #: scripts/scenario_57_shoreline.lua:2992
@@ -967,9 +965,7 @@ msgctxt "stationGeneralInfo-comms"
 msgid ""
 "We manufacture warp, impulse and jump engines for the human navy fleet as "
 "well as other independent clients on a contract basis"
-msgstr ""
-"Wir stellen Warp-, Impuls- und Sprungtriebwerke für die menschliche Flotte "
-"sowie für andere unabhängige Kunden auf Vertragsbasis her."
+msgstr "Wir stellen Warp-, Impuls- und Sprungtriebwerke für die menschliche Navy sowie für andere unabhängige Kunden auf Vertragsbasis her."
 
 #: scripts/scenario_57_shoreline.lua:2278
 msgctxt "stationStory-comms"
@@ -1218,10 +1214,7 @@ msgctxt "stationStory-comms"
 msgid ""
 "Station named in honor of Charles Hayden whose philanthropy continued "
 "astrophysical research and education on Earth in the early 20th century"
-msgstr ""
-"Die Station wurde zu Ehren von Charles Hayden benannt, dessen Wohltätigkeit "
-"die astrophysikalische Forschung und Ausbildung auf der Erde im frühen 20. "
-"Jahrhundert stark vorran brachte."
+msgstr "Die Station wurde zu Ehren von Charles Hayden benannt, dessen Wohltätigkeit die astrophysikalische Forschung und Ausbildung auf der Erde im frühen 20. Jahrhundert stark voran brachte."
 
 #: scripts/scenario_57_shoreline.lua:2840
 msgctxt "stationGeneralInfo-comms"
@@ -1717,7 +1710,7 @@ msgstr "Kühlmittel wird aufgenommen"
 #, lua-format
 msgctxt "coolant-tabEngineer"
 msgid "Deploying Collectors %i"
-msgstr "Kollektoren hochfahren %i"
+msgstr "Kollektoren hochfahren (%i)"
 
 #: scripts/scenario_57_shoreline.lua:6981
 #, lua-format
@@ -1967,9 +1960,7 @@ msgctxt "trade-comms"
 msgid ""
 "\n"
 "Insufficient cargo space for purchase"
-msgstr ""
-"\n"
-"Unzureichender Laderaum für den Kauf"
+msgstr "\nUnzureichender Laderaum für den Kauf."
 
 #: scripts/scenario_57_shoreline.lua:7392
 #: scripts/scenario_57_shoreline.lua:7408
@@ -1977,9 +1968,7 @@ msgctxt "needRep-comms"
 msgid ""
 "\n"
 "Insufficient reputation for purchase"
-msgstr ""
-"\n"
-"Unzureichender Ruf für den Kauf"
+msgstr "\nUnzureichender Ruf für den Kauf."
 
 #: scripts/scenario_57_shoreline.lua:7394
 #: scripts/scenario_57_shoreline.lua:7441
@@ -2229,7 +2218,7 @@ msgstr "Wir handeln nicht mit Massenvernichtungswaffen."
 #: scripts/scenario_57_shoreline.lua:7648
 msgctxt "ammo-comms"
 msgid "We do not deal in weapons of mass disruption."
-msgstr "Wir handeln nicht mit Massenstörungswaffen."
+msgstr "Wir handeln nicht mit Störwaffen."
 
 #: scripts/scenario_57_shoreline.lua:7649
 msgctxt "ammo-comms"
@@ -2239,13 +2228,12 @@ msgstr "Wir handeln nicht mit solchen Waffen."
 #: scripts/scenario_57_shoreline.lua:7656
 msgctxt "ammo-comms"
 msgid "All nukes are charged and primed for destruction."
-msgstr "Alle Nukes sind geladen und bereit zu zerstören."
+msgstr "Alle Nukes sind geladen."
 
 #: scripts/scenario_57_shoreline.lua:7658
 msgctxt "ammo-comms"
 msgid "Sorry, sir, but you are as fully stocked as I can allow."
-msgstr ""
-"Es tut mir leid, aber sie haben bereits das zulässige Höchstlimit erreicht."
+msgstr "Es tut mir leid, aber Sie haben bereits das zulässige Höchstlimit erreicht."
 
 #: scripts/scenario_57_shoreline.lua:7666
 #: scripts/scenario_57_shoreline.lua:7681
@@ -2267,7 +2255,7 @@ msgstr ""
 #: scripts/scenario_57_shoreline.lua:7692
 msgctxt "needRep-comms"
 msgid "Not enough reputation."
-msgstr "Nicht genug Ruf."
+msgstr "Ihr Ruf ist nicht ausreichend."
 
 #: scripts/scenario_57_shoreline.lua:7676
 msgctxt "ammo-comms"
@@ -2358,7 +2346,7 @@ msgstr "Nicht wirklich."
 #: scripts/scenario_57_shoreline.lua:7743
 msgctxt "ammo-comms"
 msgid "What ordnance do you have available for restock?"
-msgstr "Welche Munitionsarten haben Sie zum Auffüllen verfügbar?"
+msgstr "Welche Munition können Sie uns anbieten?"
 
 #: scripts/scenario_57_shoreline.lua:7749
 msgctxt "ammo-comms"
@@ -2414,13 +2402,13 @@ msgstr "Wir haben keine Munition zum Auffüllen verfügbar."
 #, lua-format
 msgctxt "ammo-comms"
 msgid "We have the following type of ordnance available for restock:%s"
-msgstr "Wir haben folgende Art von Munition zum Auffüllen verfügbar: %s"
+msgstr "Wir haben folgende Munitionsart vorrätig:%s"
 
 #: scripts/scenario_57_shoreline.lua:7772
 #, lua-format
 msgctxt "ammo-comms"
 msgid "We have the following types of ordnance available for restock:%s"
-msgstr "Wir haben folgende Arten von Munition zum Auffüllen verfügbar: %s"
+msgstr "Wir haben folgende Munitionsarten vorrätig:%s"
 
 #: scripts/scenario_57_shoreline.lua:7786
 msgctxt "trade-comms"
@@ -2520,7 +2508,7 @@ msgstr "Wir haben ein Versorgungsschiff nach WP %d entsandt."
 #: scripts/scenario_57_shoreline.lua:7949
 msgctxt "needRep-comms"
 msgid "Not enough reputation!"
-msgstr "Nicht genug Ruf!"
+msgstr "Ihr Ruf ist nicht ausreichend."
 
 #: scripts/scenario_57_shoreline.lua:7928
 #, lua-format
@@ -3095,7 +3083,7 @@ msgstr "Heckschilde: %d%%\n"
 #, lua-format
 msgctxt "shipAssist-comms"
 msgid "Shield %s: %d%%\n"
-msgstr "Schild %s: %d%%\n"
+msgstr "Schilde %s: %d%%\n"
 
 #: scripts/scenario_57_shoreline.lua:8664
 #: scripts/scenario_57_shoreline.lua:9128
@@ -3109,7 +3097,7 @@ msgstr "%s Raketen: %d/%d\n"
 #, lua-format
 msgctxt "shipAssist-comms"
 msgid "Dock at %s"
-msgstr "An %s andocken"
+msgstr "Docke bei %s an"
 
 #: scripts/scenario_57_shoreline.lua:8673
 #: scripts/scenario_57_shoreline.lua:9137
@@ -3132,7 +3120,7 @@ msgstr " oder "
 #: scripts/scenario_57_shoreline.lua:9157
 msgctxt "shipEnemy-comms"
 msgid "We will see to your destruction!"
-msgstr "Wir werden für eure Vernichtung sorgen!"
+msgstr "Wir sehen Ihrer Zerstörung entgegen!"
 
 #: scripts/scenario_57_shoreline.lua:9158
 msgctxt "shipEnemy-comms"
@@ -3166,7 +3154,7 @@ msgstr ""
 #: scripts/scenario_57_shoreline.lua:9165
 msgctxt "shipEnemy-comms"
 msgid "Stay out of our way, or your death will amuse us extremely!"
-msgstr "Gehen Sie uns aus dem Weg, oder Ihr Tod wird uns sehr amüsieren!"
+msgstr "Gehen Sie uns aus dem Weg, oder Ihr Tod wird uns köstlich amüsieren!"
 
 #: scripts/scenario_57_shoreline.lua:9167
 msgctxt "shipEnemy-comms"
@@ -3177,14 +3165,7 @@ msgid ""
 "Generating appropriate response for target from human language archives.\n"
 ":Do not cross us:\n"
 "Communication halted."
-msgstr ""
-"Eins Null Eins.\n"
-"Nichtbinäre Kommunikation erkannt. Wechsle zu universeller Sprache.\n"
-"Generiere angemessene Antwort aus menschlichen Archiven.\n"
-"\n"
-":Kommen Sie uns nicht in die Quere.:\n"
-"\n"
-"Verbindung beendet."
+msgstr "Eins Null Eins.\n\nNichtbinäre Kommunikation erkannt. Wechsle zu universeller Sprache.\n\nGeneriere angemessene Antwort aus menschlichen Archiven.\n\n:Kommen Sie uns nicht in die Quere.:\n\nVerbindung beendet."
 
 #: scripts/scenario_57_shoreline.lua:9168
 msgctxt "shipEnemy-comms"
@@ -3194,7 +3175,7 @@ msgstr "FÜHRE AUS: SELBSTZERSTÖRUNG"
 #: scripts/scenario_57_shoreline.lua:9169
 msgctxt "shipEnemy-comms"
 msgid "Rogue command received. Targeting source."
-msgstr "Abtrünnigen Befehl empfangen. Greife Quelle an."
+msgstr "Schadhafter Befehl entdeckt. Erfasse Quelle."
 
 #: scripts/scenario_57_shoreline.lua:9170
 msgctxt "shipEnemy-comms"
@@ -3216,7 +3197,7 @@ msgstr ""
 #: scripts/scenario_57_shoreline.lua:9173
 msgctxt "shipEnemy-comms"
 msgid "<Transmit 'The Itsy-Bitsy Spider' on all wavelengths>"
-msgstr "<Senden von 'The Itsy-Bitsy Spider' auf allen Wellenlängen>"
+msgstr "<Senden von 'The Itsy-Bitsy Spider' auf allen Kanälen>"
 
 #: scripts/scenario_57_shoreline.lua:9174
 msgctxt "shipEnemy-comms"
@@ -3233,7 +3214,7 @@ msgstr "Der Schwarm hat wichtigeres zu tun als Schädlingsbekämpfung."
 #: scripts/scenario_57_shoreline.lua:9177
 msgctxt "shipEnemy-comms"
 msgid "Mind your own business!"
-msgstr "Kümmern Sie sich um Ihren eigenen Kram!"
+msgstr "Kümmern Sie sich um Ihre eigenen Angelegenheiten!"
 
 #: scripts/scenario_57_shoreline.lua:9419
 msgctxt "ship-comms"
