@@ -126,7 +126,9 @@ Status: Punkte 1–5 sind in Commits auf dem Branch `de-translation-completion` 
 | `Insufficient cargo space for purchase` | „…Kauf" (2x) | „…Kauf." (2x, nur Punkt) |
 | `Good day, officer!\nWhat can we do for you today?\n` | „…für Sie tun?" (3x) | „…für sie tun?" (3x, Anrede-Fehler wie oben — sollte eigentlich als Fehler behandelt werden, siehe A.3) |
 
-### A.2 Zwei ganze Szenario-Dateien mit durchgehend abweichender Formulierung
+### A.2 Zwei ganze Szenario-Dateien mit durchgehend abweichender Formulierung — erledigt
+
+`scenario_32_devour.de.po` wurde auf die Formulierungen von `scenario_55_defenderHunter.de.po` vereinheitlicht (22 Strings, Commit `b7a0e8d0`).
 
 `scenario_32_devour.de.po` und `scenario_55_defenderHunter.de.po` verwenden für denselben `stationServices-comms`-Textblock (Docking-Status, Sonden auffüllen, Hüllenreparatur, Energie laden, Sprungantrieb überladen, Systemreparaturen — ca. 15 zusammengehörige Strings) durchgängig zwei unterschiedliche Stilfamilien, z. B.:
 
@@ -143,6 +145,6 @@ Das betrifft vermutlich beide Dateien komplett und wäre am sinnvollsten als eig
 - `Artifact with quantum biometric characteristics` / `…embedded chroniton particles` / `…bridging two parallel universes`: unterschiedliche, aber beide plausible Formulierungen ohne klaren Fehler.
 - `buttonGM | *` vs. `[*]`, `subclass | Carrier` „Trägerschiff" vs. „Träger": vermutlich UI-Platzgründe, nicht sicher ohne Blick auf den jeweiligen Bildschirm zu entscheiden.
 
-### A.4 Zusätzlich gefundener Einzelfall (nicht behoben)
+### A.4 Zusätzlich gefundener Einzelfall — erledigt
 
-- `scienceDB | Cruiser`: in `scenario_53_escape.de.po:456` noch unübersetzt „Cruiser" (obwohl an anderer Stelle bereits „Kreuzer" verwendet wird) — im ursprünglichen Report nicht erfasst, da dort nur `cpu_ship_diversification_scenario_utility.de.po` explizit genannt war.
+- `scienceDB | Cruiser`: in `scenario_53_escape.de.po:456` war noch unübersetzt „Cruiser" stehengeblieben, jetzt „Kreuzer" (Commit `b7a0e8d0`).
