@@ -61,7 +61,7 @@ msgstr ""
 # Scenario setting
 msgctxt "setting"
 msgid "Difficulty"
-msgstr "Schwierigkeit"
+msgstr "Schwierigkeitsgrad"
 
 msgctxt "setting"
 msgid ""
@@ -769,27 +769,24 @@ msgstr "Alle Nukes sind geladen."
 #: scripts/scenario_51_deliverAmbassador.lua:1052
 msgctxt "ammo-comms"
 msgid "Sorry, sir, but you are as fully stocked as I can allow."
-msgstr ""
-"Es tut mir leid, aber sie haben bereits das zulässige Höchstlimit erreicht."
+msgstr "Es tut mir leid, aber Sie haben bereits das zulässige Höchstlimit erreicht."
 
 #: scripts/scenario_51_deliverAmbassador.lua:1056
 msgctxt "needRep-comms"
 msgid "Not enough reputation."
-msgstr "Ruf nicht hoch genug."
+msgstr "Ihr Ruf ist nicht ausreichend."
 
 #: scripts/scenario_51_deliverAmbassador.lua:1061
 msgctxt "ammo-comms"
 msgid "You are fully loaded and ready to explode things."
-msgstr "Ihr Vorrat an Nukes wurde wieder aufgefüllt."
+msgstr "Sie sind voll geladen und bereit, Dinge in die Luft zu jagen."
 
 #: scripts/scenario_51_deliverAmbassador.lua:1063
 msgctxt "ammo-comms"
 msgid ""
 "We generously resupplied you with some weapon charges.\n"
 "Put them to good use."
-msgstr ""
-"Wir waren so frei und haben Ihre Waffenvorräte etwas aufgefüllt.\n"
-"Setzen Sie sie weise ein."
+msgstr "Wir haben Sie großzügig mit einigen Waffen ausgestattet.\nSetzen Sie sie gut ein."
 
 #: scripts/scenario_51_deliverAmbassador.lua:1071
 msgctxt "station-comms"
@@ -824,7 +821,7 @@ msgstr ""
 #: scripts/scenario_51_deliverAmbassador.lua:1080
 msgctxt "stationAssist-comms"
 msgid "To which waypoint should we deliver your supplies?"
-msgstr "An welchen Wegpunkt sollen wir das Transportschiff schicken?"
+msgstr "Zu welchem Wegpunkt sollen wir Ihre Versorgungslieferung schicken?"
 
 #: scripts/scenario_51_deliverAmbassador.lua:1082
 #: scripts/scenario_51_deliverAmbassador.lua:1108
@@ -843,7 +840,7 @@ msgstr "Wir haben ein Versorgungsschiff in Richtung Wegpunkt %s losgeschickt"
 #: scripts/scenario_51_deliverAmbassador.lua:1113
 msgctxt "needRep-comms"
 msgid "Not enough reputation!"
-msgstr "Ruf nicht hoch genug!"
+msgstr "Ihr Ruf ist nicht ausreichend."
 
 #: scripts/scenario_51_deliverAmbassador.lua:1102
 #, lua-format

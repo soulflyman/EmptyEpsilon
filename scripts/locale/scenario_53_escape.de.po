@@ -45,7 +45,7 @@ msgstr "Legt die Anzahl/Stärke der im Szenario gespawnten Feinde fest."
 
 msgctxt "Enemies"
 msgid "Easy"
-msgstr "Leicht"
+msgstr "Einfach"
 
 msgctxt "Enemies"
 msgid "Weaker/fewer enemies."
@@ -78,7 +78,7 @@ msgstr "Konfiguriert die Bösartigkeit des Universums nach Murphys Gesetz"
 
 msgctxt "Murphy"
 msgid "Easy"
-msgstr "Leicht"
+msgstr "Einfach"
 
 msgctxt "Murphy"
 msgid "Random factors are more in your favor"
@@ -619,7 +619,7 @@ msgstr ""
 #: scripts/scenario_53_escape.lua:1332
 msgctxt "station-comms"
 msgid "Welcome to our lovely station.\n"
-msgstr "Willkommen in unserer schönen Station.\n"
+msgstr "Willkommen auf unserer schönen Station!\n"
 
 #: scripts/scenario_53_escape.lua:1335
 msgctxt "station-comms"
@@ -1300,7 +1300,7 @@ msgstr ""
 #, lua-format
 msgctxt "trade-comms"
 msgid "Trade food for %s"
-msgstr "Tausche Lebensmittel (food) gegen %s"
+msgstr "Tausche Lebensmittel gegen %s"
 
 #: scripts/scenario_53_escape.lua:1865 scripts/scenario_53_escape.lua:1888
 #: scripts/scenario_53_escape.lua:1911
@@ -1323,14 +1323,14 @@ msgstr ""
 #, lua-format
 msgctxt "trade-comms"
 msgid "Trade medicine for %s"
-msgstr "Tausche Medikamente (medicine) gegen %s"
+msgstr "Tausche Medizin gegen %s"
 
 #: scripts/scenario_53_escape.lua:1910 scripts/scenario_53_escape.lua:2486
 #: scripts/scenario_53_escape.lua:2682
 #, lua-format
 msgctxt "trade-comms"
 msgid "Trade luxury for %s"
-msgstr "Tausche Luxusgüter (luxury) gegen %s"
+msgstr "Tausche Luxusgüter gegen %s"
 
 #: scripts/scenario_53_escape.lua:1940 scripts/scenario_53_escape.lua:2463
 #: scripts/scenario_53_escape.lua:2659 scripts/scenario_53_escape.lua:2741
@@ -1588,7 +1588,7 @@ msgstr ""
 #: scripts/scenario_53_escape.lua:2055
 msgctxt "station-comms"
 msgid "You need to stay docked for that action."
-msgstr "Für diese Aktion müssen Sie angedockt sein."
+msgstr "Für diese Aktion müssen Sie angedockt bleiben."
 
 #: scripts/scenario_53_escape.lua:2059
 msgctxt "ammo-comms"
@@ -1608,13 +1608,12 @@ msgstr "Wir handeln nicht mit solchen Waffen."
 #: scripts/scenario_53_escape.lua:2068
 msgctxt "ammo-comms"
 msgid "All nukes are charged and primed for destruction."
-msgstr "Alle Nukes sind geladen und zur Zerstörung bereit."
+msgstr "Alle Nukes sind geladen."
 
 #: scripts/scenario_53_escape.lua:2070
 msgctxt "ammo-comms"
 msgid "Sorry, sir, but you are as fully stocked as I can allow."
-msgstr ""
-"Es tut mir leid, aber sie haben bereits das zulässige Höchstlimit erreicht."
+msgstr "Es tut mir leid, aber Sie haben bereits das zulässige Höchstlimit erreicht."
 
 #: scripts/scenario_53_escape.lua:2078 scripts/scenario_53_escape.lua:2093
 msgctxt "ammo-comms"
@@ -1662,18 +1661,14 @@ msgctxt "station-comms"
 msgid ""
 "Good day, officer.\n"
 "If you need supplies, please dock with us first."
-msgstr ""
-"Guten Tag,\n"
-"wenn Sie Nachschub brauchen, docken Sie bitte zuerst bei uns an."
+msgstr "Guten Tag, \nwenn Sie Vorräte benötigen, docken Sie bitte bei uns an."
 
 #: scripts/scenario_53_escape.lua:2119
 msgctxt "station-comms"
 msgid ""
 "Greetings.\n"
 "If you want to do business, please dock with us first."
-msgstr ""
-"Guten Tag.\n"
-"Wenn Sie Geschäfte machen wollen, docken Sie bitte zuerst bei uns an."
+msgstr "Guten Tag,\nwenn Sie mit uns handeln wollen, docken Sie bitte bei uns an."
 
 #: scripts/scenario_53_escape.lua:2122
 msgctxt "station-comms"
@@ -1912,7 +1907,7 @@ msgstr " und tauscht gegen Luxusgüter (luxury)"
 #: scripts/scenario_53_escape.lua:2430 scripts/scenario_53_escape.lua:2721
 msgctxt "shipAssist-comms"
 msgid "What do you want?"
-msgstr "Was wünschen Sie?"
+msgstr "Was wollen Sie?"
 
 #: scripts/scenario_53_escape.lua:2432
 msgctxt "shipAssist-comms"
@@ -1955,7 +1950,7 @@ msgstr "Gekauft: %s von %s."
 #: scripts/scenario_53_escape.lua:2777 scripts/scenario_53_escape.lua:2809
 msgctxt "needRep-comms"
 msgid "Insufficient reputation for purchase"
-msgstr "Unzureichender Ruf für den Kauf."
+msgstr "Unzureichender Ruf für den Kauf"
 
 #: scripts/scenario_53_escape.lua:2517 scripts/scenario_53_escape.lua:2713
 #: scripts/scenario_53_escape.lua:2780 scripts/scenario_53_escape.lua:2812
@@ -1993,7 +1988,7 @@ msgstr "Wir sind auf dem Weg zur Unterstützung bei WP %d."
 #: scripts/scenario_53_escape.lua:2541
 msgctxt "shipAssist-comms"
 msgid "Assist me"
-msgstr "Helfen Sie uns"
+msgstr "Unterstützen Sie uns."
 
 #: scripts/scenario_53_escape.lua:2542
 msgctxt "shipAssist-comms"
@@ -2015,7 +2010,7 @@ msgstr "Hülle: %d%%\n"
 #, lua-format
 msgctxt "shipAssist-comms"
 msgid "Shield: %d%%\n"
-msgstr "Schilde: %d%%\n"
+msgstr "Schild: %d%%\n"
 
 #: scripts/scenario_53_escape.lua:2553
 #, lua-format
@@ -2027,9 +2022,7 @@ msgstr "Frontschilde:  %d%%\n"
 #, lua-format
 msgctxt "shipAssist-comms"
 msgid "Rear Shield: %d%%\n"
-msgstr ""
-"Heckschilde: %d%%\n"
-"\n"
+msgstr "Heckschilde: %d%%\n"
 
 #: scripts/scenario_53_escape.lua:2557
 #, lua-format
@@ -2135,12 +2128,7 @@ msgid ""
 "The hive suffers no threats. Opposition to any of us is opposition to us "
 "all.\n"
 "Stand down or prepare to donate your corpses toward our nutrition."
-msgstr ""
-"Der Schwarm duldet keine Drohungen. Feindseligkeit gegen eines von uns ist "
-"Feindseligkeit gegen uns alle.\n"
-"\n"
-"Halten Sie ihre Position und machen Sie sich bereit, Ihre Körper als Nahrung "
-"zu spenden."
+msgstr "Der Schwarm duldet keine Drohungen. Feindseligkeit gegen eines von uns ist Feindseligkeit gegen uns alle.\nHalten Sie ihre Position und machen Sie sich bereit, Ihre Körper als Nahrung zu spenden."
 
 #: scripts/scenario_53_escape.lua:2601
 msgctxt "shipEnemy-comms"
@@ -2204,10 +2192,7 @@ msgctxt "ship-comms"
 msgid ""
 "We have nothing for you.\n"
 "Good day."
-msgstr ""
-"Wir können Ihnen nichts anbieten.\n"
-"\n"
-"Einen schönen Tag noch."
+msgstr "Wir können Ihnen nichts anbieten.\nEinen schönen Tag noch."
 
 #: scripts/scenario_53_escape.lua:2870
 #, lua-format

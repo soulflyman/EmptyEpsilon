@@ -276,9 +276,7 @@ msgctxt "stationGeneralInfo-comms"
 msgid ""
 "We manufacture warp, impulse and jump engines for the human navy fleet as "
 "well as other independent clients on a contract basis"
-msgstr ""
-"Wir stellen Warp-, Impuls- und Sprungtriebwerke für die menschliche Flotte "
-"sowie für andere unabhängige Kunden auf Vertragsbasis her."
+msgstr "Wir stellen Warp-, Impuls- und Sprungtriebwerke für die menschliche Navy sowie für andere unabhängige Kunden auf Vertragsbasis her."
 
 #: scripts/scenario_54_PatrolDuty.lua:362
 msgctxt "stationStory-comms"
@@ -938,9 +936,7 @@ msgstr "Diplomatische Ausbildung"
 msgctxt "stationGeneralInfo-comms"
 msgid ""
 "The premeire academy for leadership and diplomacy training in the region"
-msgstr ""
-"Die führende Akademie für die Ausbildung von Führungskräften sowie "
-"Diplomatie-Ausbildung in der Region."
+msgstr "Die führende Akademie für die Ausbildung von Führungskräften und Diplomatie in der Region."
 
 #: scripts/scenario_54_PatrolDuty.lua:1553
 msgctxt "stationStory-comms"
@@ -1009,10 +1005,7 @@ msgid ""
 "The nomadic Skandars have set up at this station to practice their "
 "entertainment and maintenance skills as well as build a community where "
 "Skandars can relax"
-msgstr ""
-"Die nomadischen Skandare haben sich in dieser Station niedergelassen, um "
-"ihre Unterhaltungs- und Wartungsfähigkeiten zu trainieren und eine "
-"Gemeinschaft aufzubauen, in der sie sich entspannen können."
+msgstr "Die nomadischen Skandare haben sich in dieser Station niedergelassen, um ihre Unterhaltungs- und Wartungsfähigkeiten zu trainieren und eine Gemeinschaft aufzubauen, in der sich die Skandare entspannen können."
 
 #: scripts/scenario_54_PatrolDuty.lua:1700
 msgctxt "stationGeneralInfo-comms"
@@ -1406,9 +1399,7 @@ msgctxt "stationStory-comms"
 msgid ""
 "Continued from the Tandon school of engineering started on Earth in the "
 "early 21st century"
-msgstr ""
-"Eine Fortführung der Tandon School of Engineering, die Anfang des 21. "
-"Jahrhunderts auf der Erde gegründet wurde."
+msgstr "Fortsetzung der Tandon School of Engineering, die Anfang des 21. Jahrhunderts auf der Erde gegründet wurde."
 
 #: scripts/scenario_54_PatrolDuty.lua:2412
 #: scripts/scenario_54_PatrolDuty.lua:2492
@@ -1773,7 +1764,7 @@ msgstr "Wir könnten ein paar Minen gebrauchen. ("
 #: scripts/scenario_54_PatrolDuty.lua:4391
 msgctxt "ammo-comms"
 msgid "How about mines? ("
-msgstr "Wie sieht es mit Minen aus?"
+msgstr "Wie sieht es mit Minen aus? ("
 
 #: scripts/scenario_54_PatrolDuty.lua:4401
 msgctxt "ammo-comms"
@@ -1789,7 +1780,7 @@ msgstr "Könnten Sie HGBIs zur Verfügung stellen? ("
 #: scripts/scenario_54_PatrolDuty.lua:5386
 msgctxt "station-comms"
 msgid "I need information"
-msgstr "Ich brauche Informationen"
+msgstr "Ich brauche Informationen."
 
 #: scripts/scenario_54_PatrolDuty.lua:4414
 #, lua-format
@@ -2390,7 +2381,7 @@ msgstr "     %s: %i\n"
 #, lua-format
 msgctxt "trade-comms"
 msgid "Current cargo aboard %s:\n"
-msgstr "Derzeitige Fracht an Bord: %s:\n"
+msgstr "Aktuelle Fracht an Bord von %s:\n"
 
 #: scripts/scenario_54_PatrolDuty.lua:4785
 msgctxt "trade-comms"
@@ -2423,9 +2414,7 @@ msgctxt "trade-comms"
 msgid ""
 "\n"
 "Insufficient cargo space for purchase"
-msgstr ""
-"\n"
-"Unzureichender Laderaum für den Kauf"
+msgstr "\nUnzureichender Laderaum für den Kauf."
 
 #: scripts/scenario_54_PatrolDuty.lua:4795
 #: scripts/scenario_54_PatrolDuty.lua:4811
@@ -2433,9 +2422,7 @@ msgctxt "needRep-comms"
 msgid ""
 "\n"
 "Insufficient reputation for purchase"
-msgstr ""
-"\n"
-"Unzureichender Ruf für den Kauf"
+msgstr "\nUnzureichender Ruf für den Kauf."
 
 #: scripts/scenario_54_PatrolDuty.lua:4797
 #: scripts/scenario_54_PatrolDuty.lua:4838
@@ -2483,7 +2470,7 @@ msgstr ""
 #, lua-format
 msgctxt "trade-comms"
 msgid "Trade food for %s"
-msgstr "Tausche Lebensmittel (food) gegen %s"
+msgstr "Tausche Lebensmittel gegen %s"
 
 #: scripts/scenario_54_PatrolDuty.lua:4836
 #: scripts/scenario_54_PatrolDuty.lua:4859
@@ -2508,14 +2495,14 @@ msgstr ""
 #, lua-format
 msgctxt "trade-comms"
 msgid "Trade medicine for %s"
-msgstr "Tausche Medikamente (medicine) gegen %s"
+msgstr "Tausche Medizin gegen %s"
 
 #: scripts/scenario_54_PatrolDuty.lua:4881
 #: scripts/scenario_54_PatrolDuty.lua:5866
 #, lua-format
 msgctxt "trade-comms"
 msgid "Trade luxury for %s"
-msgstr "Tausche Luxusgüter (luxury) gegen %s"
+msgstr "Tausche Luxusgüter gegen %s"
 
 #: scripts/scenario_54_PatrolDuty.lua:4911
 #: scripts/scenario_54_PatrolDuty.lua:5842
@@ -2805,7 +2792,7 @@ msgstr "Welche Waren interessieren Sie?"
 #: scripts/scenario_54_PatrolDuty.lua:5330
 msgctxt "station-comms"
 msgid "You need to stay docked for that action."
-msgstr "Für diese Aktion müssen Sie angedockt sein."
+msgstr "Für diese Aktion müssen Sie angedockt bleiben."
 
 #: scripts/scenario_54_PatrolDuty.lua:5334
 msgctxt "ammo-comms"
@@ -2825,13 +2812,12 @@ msgstr "Wir handeln nicht mit solchen Waffen."
 #: scripts/scenario_54_PatrolDuty.lua:5343
 msgctxt "ammo-comms"
 msgid "All nukes are charged and primed for destruction."
-msgstr "Alle Nukes sind geladen und zur Zerstörung bereit."
+msgstr "Alle Nukes sind geladen."
 
 #: scripts/scenario_54_PatrolDuty.lua:5345
 msgctxt "ammo-comms"
 msgid "Sorry, sir, but you are as fully stocked as I can allow."
-msgstr ""
-"Es tut mir leid, aber sie haben bereits das zulässige Höchstlimit erreicht."
+msgstr "Es tut mir leid, aber Sie haben bereits das zulässige Höchstlimit erreicht."
 
 #: scripts/scenario_54_PatrolDuty.lua:5350
 msgctxt "needRep-comms"
@@ -2848,27 +2834,21 @@ msgctxt "ammo-comms"
 msgid ""
 "We generously resupplied you with some weapon charges.\n"
 "Put them to good use."
-msgstr ""
-"Wir waren so frei und haben Ihre Waffenvorräte etwas aufgefüllt.\n"
-"Setzen Sie sie weise ein."
+msgstr "Wir haben Sie großzügig mit einigen Waffen ausgestattet.\nSetzen Sie sie gut ein."
 
 #: scripts/scenario_54_PatrolDuty.lua:5378
 msgctxt "station-comms"
 msgid ""
 "Good day, officer.\n"
 "If you need supplies, please dock with us first."
-msgstr ""
-"Guten Tag,\n"
-"wenn Sie Nachschub brauchen, docken Sie bitte zuerst bei uns an."
+msgstr "Guten Tag, \nwenn Sie Vorräte benötigen, docken Sie bitte bei uns an."
 
 #: scripts/scenario_54_PatrolDuty.lua:5380
 msgctxt "station-comms"
 msgid ""
 "Greetings.\n"
 "If you want to do business, please dock with us first."
-msgstr ""
-"Guten Tag.\n"
-"Wenn Sie Geschäfte machen wollen, docken Sie bitte zuerst bei uns an."
+msgstr "Guten Tag,\nwenn Sie mit uns handeln wollen, docken Sie bitte bei uns an."
 
 #: scripts/scenario_54_PatrolDuty.lua:5383
 msgctxt "station-comms"
@@ -3082,7 +3062,7 @@ msgstr "Verteidigen Sie einen Wegpunkt"
 #: scripts/scenario_54_PatrolDuty.lua:5710
 msgctxt "shipAssist-comms"
 msgid "No waypoints set. Please set a waypoint first."
-msgstr "Keine Wegpunkte gesetzt. Bitte setzen sie zunächst einen Wegpunkt."
+msgstr "Keine Wegpunkte gesetzt. Bitte setzen Sie zuerst einen Wegpunkt."
 
 #: scripts/scenario_54_PatrolDuty.lua:5713
 msgctxt "shipAssist-comms"
@@ -3109,12 +3089,12 @@ msgstr "Unterstützen Sie uns."
 #: scripts/scenario_54_PatrolDuty.lua:5725
 msgctxt "shipAssist-comms"
 msgid "Heading toward you to assist."
-msgstr "Wir sind unterwegs, um Sie zu unterstützen."
+msgstr "Ich mache mich auf den Weg, um Ihnen zu helfen."
 
 #: scripts/scenario_54_PatrolDuty.lua:5730
 msgctxt "shipAssist-comms"
 msgid "Report status"
-msgstr "Status melden."
+msgstr "Statusbericht"
 
 #: scripts/scenario_54_PatrolDuty.lua:5731
 #, lua-format
@@ -3156,13 +3136,13 @@ msgstr "%s Raketen: %d/%d\n"
 #, lua-format
 msgctxt "shipAssist-comms"
 msgid "Dock at %s"
-msgstr "An %s andocken"
+msgstr "Docke bei %s an"
 
 #: scripts/scenario_54_PatrolDuty.lua:5757
 #, lua-format
 msgctxt "shipAssist-comms"
 msgid "Docking at %s."
-msgstr "Wir docken bei %s."
+msgstr "Wir docken bei %s an."
 
 #: scripts/scenario_54_PatrolDuty.lua:5768
 msgctxt "shipEnemy-comms"
@@ -3212,19 +3192,12 @@ msgid ""
 "Generating appropriate response for target from human language archives.\n"
 ":Do not cross us:\n"
 "Communication halted."
-msgstr ""
-"Eins Null Eins.\n"
-"Nichtbinäre Kommunikation erkannt. Wechsle zu universeller Sprache.\n"
-"Generiere angemessene Antwort aus menschlichen Archiven.\n"
-"\n"
-":Kommen Sie uns nicht in die Quere.:\n"
-"\n"
-"Verbindung beendet."
+msgstr "Eins Null Eins.\n\nNichtbinäre Kommunikation erkannt. Wechsle zu universeller Sprache.\n\nGeneriere angemessene Antwort aus menschlichen Archiven.\n\n:Kommen Sie uns nicht in die Quere.:\n\nVerbindung beendet."
 
 #: scripts/scenario_54_PatrolDuty.lua:5779
 msgctxt "shipEnemy-comms"
 msgid "EXECUTE: SELFDESTRUCT"
-msgstr "AUSFÜHREN DER SELBSTZERSTÖRUNG"
+msgstr "FÜHRE AUS: SELBSTZERSTÖRUNG"
 
 #: scripts/scenario_54_PatrolDuty.lua:5780
 msgctxt "shipEnemy-comms"
@@ -3268,7 +3241,7 @@ msgstr "Der Schwarm hat wichtigeres zu tun als Schädlingsbekämpfung."
 #: scripts/scenario_54_PatrolDuty.lua:5788
 msgctxt "shipEnemy-comms"
 msgid "Mind your own business!"
-msgstr "Kümmern Sie sich um Ihren eigenen Kram!"
+msgstr "Kümmern Sie sich um Ihre eigenen Angelegenheiten!"
 
 #: scripts/scenario_54_PatrolDuty.lua:5806
 #: scripts/scenario_54_PatrolDuty.lua:5827

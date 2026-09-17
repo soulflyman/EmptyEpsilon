@@ -70,7 +70,7 @@ msgstr "Konfiguriert die Anzahl und Art der Feinde"
 
 msgctxt "Enemies"
 msgid "Easy"
-msgstr "Leicht"
+msgstr "Einfach"
 
 msgctxt "Enemies"
 msgid "Fewer and/or weaker enemy ships"
@@ -230,11 +230,11 @@ msgstr "Konfiguriert die Bösartigkeit des Universums nach Murphys Gesetz"
 
 msgctxt "Murphy"
 msgid "Easy"
-msgstr "Freundlich"
+msgstr "Einfach"
 
 msgctxt "Murphy"
 msgid "Random factors are more in your favor"
-msgstr "Zufallsfaktoren sind eher zu euren Gunsten"
+msgstr "Der Zufall neigt sich zu euren Gunsten"
 
 msgctxt "Murphy"
 msgid "Normal"
@@ -246,11 +246,11 @@ msgstr "Zufallsfaktoren sind normal"
 
 msgctxt "Murphy"
 msgid "Hard"
-msgstr "Böse"
+msgstr "Schwer"
 
 msgctxt "Murphy"
 msgid "Random factors are more against you"
-msgstr "Zufallsfaktoren sind eher gegen euch"
+msgstr "Zufallsfaktoren sind eher gegen die Crew gerichtet"
 
 #: scripts/scenario_55_defenderHunter.lua:172
 msgctxt "gossip-comms"
@@ -410,16 +410,14 @@ msgstr ""
 #: scripts/scenario_55_defenderHunter.lua:1791
 msgctxt "station-comms"
 msgid "Welcome to our lovely station.\n"
-msgstr "Willkommen in unserer schönen Station.\n"
+msgstr "Willkommen auf unserer schönen Station!\n"
 
 #: scripts/scenario_55_defenderHunter.lua:1794
 msgctxt "station-comms"
 msgid ""
 "Forgive us if we seem a little distracted. We are carefully monitoring the "
 "enemies nearby."
-msgstr ""
-"Verzeiht uns, wenn wir ein wenig abgelenkt wirken. Wir beobachten aufmerksam "
-"die Feinde in der Nähe."
+msgstr "Verzeihen Sie uns, wenn wir ein wenig abgelenkt wirken. Wir beobachten aufmerksam feindliche Aktivitäten in der Nähe."
 
 #: scripts/scenario_55_defenderHunter.lua:1831
 msgctxt "ammo-comms"
@@ -479,7 +477,7 @@ msgstr "Wir könnten ein paar Minen gebrauchen. ("
 #: scripts/scenario_55_defenderHunter.lua:1874
 msgctxt "ammo-comms"
 msgid "How about mines? ("
-msgstr "Wie wäre es mit Minen? ("
+msgstr "Wie sieht es mit Minen aus? ("
 
 #: scripts/scenario_55_defenderHunter.lua:1884
 msgctxt "ammo-comms"
@@ -489,7 +487,7 @@ msgstr "Was ist mit HGBI? ("
 #: scripts/scenario_55_defenderHunter.lua:1886
 msgctxt "ammo-comms"
 msgid "Could you provide HVLI? ("
-msgstr "Könnten Sie HGBI zur Verfügung stellen? ("
+msgstr "Könnten Sie HGBIs zur Verfügung stellen? ("
 
 #: scripts/scenario_55_defenderHunter.lua:1896
 #: scripts/scenario_55_defenderHunter.lua:2968
@@ -519,15 +517,13 @@ msgstr ""
 #: scripts/scenario_55_defenderHunter.lua:2976
 msgctxt "stationServices-comms"
 msgid "Cannot replenish scan probes due to fabrication unit failure."
-msgstr ""
-"Sonden können aufgrund eines Fehlers in der Fertigungseinheit nicht wieder "
-"aufgefüllt werden."
+msgstr "Aufgrund eines Fehlers der Fertigungseinheit können keine neuen Sonden hergestellt werden."
 
 #: scripts/scenario_55_defenderHunter.lua:1904
 #: scripts/scenario_55_defenderHunter.lua:2977
 msgctxt "stationServices-comms"
 msgid "Parts shortage prevents scan probe replenishment."
-msgstr "Teilemangel verhindert den Nachschub von Sonden."
+msgstr "Aufgrund von Ersatzteilknappheit kann der Vorrat an Sonden nicht mehr aufgefüllt werden."
 
 #: scripts/scenario_55_defenderHunter.lua:1905
 #: scripts/scenario_55_defenderHunter.lua:2978
@@ -535,9 +531,7 @@ msgctxt "stationServices-comms"
 msgid ""
 "Station management has curtailed scan probe replenishment for cost cutting "
 "reasons."
-msgstr ""
-"Die Stationsleitung hat aus Kostengründen den Nachschub an Scansonden "
-"eingeschränkt."
+msgstr "Die Stationsleitung hat aus Kostengründen den Nachschub an Sonden eingeschränkt."
 
 #: scripts/scenario_55_defenderHunter.lua:1909
 #: scripts/scenario_55_defenderHunter.lua:1922
@@ -576,17 +570,13 @@ msgstr ""
 #: scripts/scenario_55_defenderHunter.lua:1917
 msgctxt "stationServices-comms"
 msgid "Hull repair automation unavailable while it is undergoing maintenance."
-msgstr ""
-"Die automatische Hüllenreparatur ist während der Wartungsarbeiten nicht "
-"verfügbar."
+msgstr "Automatische Hüllenreparatur ist aufgrund von Wartungsarbeiten derzeit nicht möglich."
 
 #: scripts/scenario_55_defenderHunter.lua:1918
 #: scripts/scenario_55_defenderHunter.lua:2991
 msgctxt "stationServices-comms"
 msgid "All hull repair technicians quarantined to quarters due to illness."
-msgstr ""
-"Das komplette Hüllenreparaturpersonal wurde aufgrund von Krankheit in "
-"Quarantänequartieren untergebracht."
+msgstr "Das komplette Hüllenreparatur-Personal ist aufgrund einer Krankheit derzeit in Quarantäne"
 
 #: scripts/scenario_55_defenderHunter.lua:1925
 #: scripts/scenario_55_defenderHunter.lua:2998
@@ -605,16 +595,13 @@ msgctxt "stationServices-comms"
 msgid ""
 "A recent reactor failure has put us on auxiliary power, so we cannot "
 "recharge ships."
-msgstr ""
-"Ein kürzlicher Reaktorausfall hat uns auf Hilfsenergie zurückgeworfen, so "
-"dass wir keine Schiffe mehr aufladen können."
+msgstr "Durch einen kürzlichen Reaktorausfall läuft im Moment alles auf Hilfsenergie, so dass wir keine Schiffe aufladen können."
 
 #: scripts/scenario_55_defenderHunter.lua:1930
 #: scripts/scenario_55_defenderHunter.lua:3003
 msgctxt "stationServices-comms"
 msgid "A damaged power coupling makes it too dangerous to recharge ships."
-msgstr ""
-"Eine beschädigte Energiekupplung macht es zu gefährlich, Schiffe aufzuladen."
+msgstr "Aufgrund einer beschädigten Energiekupplung ist es gerade zu gefährlich, andere Schiffe mit Energie zu versorgen."
 
 #: scripts/scenario_55_defenderHunter.lua:1931
 #: scripts/scenario_55_defenderHunter.lua:3004
@@ -622,9 +609,7 @@ msgctxt "stationServices-comms"
 msgid ""
 "An asteroid strike damaged our solar cells and we are short on power, so we "
 "can't recharge ships right now."
-msgstr ""
-"Ein Asteroideneinschlag hat unsere Solarzellen beschädigt und wir haben zu "
-"wenig Energie, so dass wir im Moment keine Schiffe aufladen können."
+msgstr "Da ein Asteroideneinschlag unsere Solarzellen beschädigt hat ist unsere Energie zur Zeit knapp, so dass wir im Moment keine Schiffe aufladen können."
 
 #: scripts/scenario_55_defenderHunter.lua:1938
 #: scripts/scenario_55_defenderHunter.lua:3011
@@ -801,7 +786,7 @@ msgstr "Ihr Sprungantrieb ist auf %ik überladen worden"
 #: scripts/scenario_55_defenderHunter.lua:3453
 msgctxt "needRep-comms"
 msgid "Insufficient reputation"
-msgstr "Unzureichender Ruf"
+msgstr "Ruf nicht ausreichend"
 
 #: scripts/scenario_55_defenderHunter.lua:1994
 msgctxt "stationServices-comms"
@@ -885,13 +870,13 @@ msgstr ""
 #, lua-format
 msgctxt "trade-comms"
 msgid "Recruit repair crew member for %i reputation"
-msgstr "Rekrutiere einen Wartungstechniker für %i Ruf."
+msgstr "Rekrutiere Wartungspersonal für %i Ruf."
 
 #: scripts/scenario_55_defenderHunter.lua:2085
 #: scripts/scenario_55_defenderHunter.lua:2118
 msgctxt "trade-comms"
 msgid "Repair crew member hired"
-msgstr "Wartungstechniker eingestellt."
+msgstr "Wartungspersonal eingestellt"
 
 #: scripts/scenario_55_defenderHunter.lua:2095
 #, lua-format
@@ -989,8 +974,7 @@ msgstr "     %s: %i, %i\n"
 #: scripts/scenario_55_defenderHunter.lua:2247
 msgctxt "trade-comms"
 msgid "Goods or components station will buy: price in reputation\n"
-msgstr ""
-"Waren oder Komponenten, die die Station kaufen wird: Preis in Ansehen\n"
+msgstr "Waren oder Komponenten, die die Station kaufen wird: Preis in Ruf\n"
 
 #: scripts/scenario_55_defenderHunter.lua:2249
 #: scripts/scenario_55_defenderHunter.lua:2258
@@ -1082,7 +1066,7 @@ msgstr "Verkaufe 1 %s für %i Ruf"
 #, lua-format
 msgctxt "trade-comms"
 msgid "Type: %s,  Reputation price: %i"
-msgstr "Art: %s, Ruf kosten: %i"
+msgstr "Art: %s, Rufkosten: %i"
 
 #: scripts/scenario_55_defenderHunter.lua:2302
 msgctxt "trade-comms"
@@ -1122,7 +1106,7 @@ msgstr ""
 #, lua-format
 msgctxt "trade-comms"
 msgid "Trade medicine for %s"
-msgstr "Tausche Medikamente (medicine) gegen %s"
+msgstr "Tausche Medizin gegen %s"
 
 #: scripts/scenario_55_defenderHunter.lua:2373
 #: scripts/scenario_55_defenderHunter.lua:3409
@@ -1158,7 +1142,7 @@ msgstr "1 %s abgeworfen"
 #: scripts/scenario_55_defenderHunter.lua:2418
 msgctxt "explainGoods-comms"
 msgid "No tutorial covered goods or cargo. Explain"
-msgstr "Waren oder Fracht sind im Tutorial nicht abgedeckt. Erklären Sie!"
+msgstr "Waren oder Fracht sind vom Tutorial nicht abgedeckt. Bitte um Erklärung."
 
 #: scripts/scenario_55_defenderHunter.lua:2419
 msgctxt "explainGoods-comms"
@@ -1817,7 +1801,7 @@ msgstr ""
 #: scripts/scenario_55_defenderHunter.lua:2842
 msgctxt "station-comms"
 msgid "You need to stay docked for that action."
-msgstr "Sie müssen für diese Aktion angedockt bleiben."
+msgstr "Für diese Aktion müssen Sie angedockt bleiben."
 
 #: scripts/scenario_55_defenderHunter.lua:2846
 msgctxt "ammo-comms"
@@ -1827,7 +1811,7 @@ msgstr "Wir handeln nicht mit Massenvernichtungswaffen."
 #: scripts/scenario_55_defenderHunter.lua:2847
 msgctxt "ammo-comms"
 msgid "We do not deal in weapons of mass disruption."
-msgstr "Wir handeln nicht mit Massenstörungswaffen."
+msgstr "Wir handeln nicht mit Störwaffen."
 
 #: scripts/scenario_55_defenderHunter.lua:2848
 msgctxt "ammo-comms"
@@ -1837,19 +1821,17 @@ msgstr "Wir handeln nicht mit solchen Waffen."
 #: scripts/scenario_55_defenderHunter.lua:2855
 msgctxt "ammo-comms"
 msgid "All nukes are charged and primed for destruction."
-msgstr "Alle Nukes sind geladen und bereit zu zerstören."
+msgstr "Alle Nukes sind geladen."
 
 #: scripts/scenario_55_defenderHunter.lua:2857
 msgctxt "ammo-comms"
 msgid "Sorry, sir, but you are as fully stocked as I can allow."
-msgstr ""
-"Tut mir leid, Sir, aber Sie sind so gut ausgestattet, wie ich es zulassen "
-"kann."
+msgstr "Es tut mir leid, aber Sie haben bereits das zulässige Höchstlimit erreicht."
 
 #: scripts/scenario_55_defenderHunter.lua:2862
 msgctxt "needRep-comms"
 msgid "Not enough reputation."
-msgstr "Nicht genug Ruf."
+msgstr "Ihr Ruf ist nicht ausreichend."
 
 #: scripts/scenario_55_defenderHunter.lua:2867
 msgctxt "ammo-comms"
@@ -1870,18 +1852,14 @@ msgctxt "station-comms"
 msgid ""
 "Good day, officer.\n"
 "If you need supplies, please dock with us first."
-msgstr ""
-"Guten Tag, Officer.\n"
-"Wenn Sie Nachschub brauchen, docken Sie bitte zuerst bei uns an."
+msgstr "Guten Tag, \nwenn Sie Vorräte benötigen, docken Sie bitte bei uns an."
 
 #: scripts/scenario_55_defenderHunter.lua:2882
 msgctxt "station-comms"
 msgid ""
 "Greetings.\n"
 "If you want to do business, please dock with us first."
-msgstr ""
-"Grüße.\n"
-"Wenn Sie Geschäfte machen wollen, docken Sie bitte zuerst bei uns an."
+msgstr "Guten Tag,\nwenn Sie mit uns handeln wollen, docken Sie bitte bei uns an."
 
 #: scripts/scenario_55_defenderHunter.lua:2885
 msgctxt "station-comms"
@@ -1907,7 +1885,7 @@ msgstr "Welche Art von Informationen benötigen Sie?"
 #: scripts/scenario_55_defenderHunter.lua:2917
 msgctxt "ammo-comms"
 msgid "What ordnance do you have available for restock?"
-msgstr "Welche Munitionsarten haben Sie zum Auffüllen verfügbar?"
+msgstr "Welche Munition können Sie uns anbieten?"
 
 #: scripts/scenario_55_defenderHunter.lua:2922
 msgctxt "ammo-comms"
@@ -1963,13 +1941,13 @@ msgstr "Wir haben keine Munition zum Auffüllen verfügbar."
 #, lua-format
 msgctxt "ammo-comms"
 msgid "We have the following type of ordnance available for restock:%s"
-msgstr "Wir haben folgende Art von Munition zum Auffüllen verfügbar: %s"
+msgstr "Wir haben folgende Munitionsart vorrätig:%s"
 
 #: scripts/scenario_55_defenderHunter.lua:2945
 #, lua-format
 msgctxt "ammo-comms"
 msgid "We have the following types of ordnance available for restock:%s"
-msgstr "Wir haben folgende Arten von Munition zum Auffüllen verfügbar: %s"
+msgstr "Wir haben folgende Munitionsarten vorrätig:%s"
 
 #: scripts/scenario_55_defenderHunter.lua:2959
 msgctxt "trade-comms"
@@ -1982,9 +1960,7 @@ msgctxt "trade-comms"
 msgid ""
 "Station %s:\n"
 "Goods or components available: quantity, cost in reputation"
-msgstr ""
-"Station %s:\n"
-"Verfügbare Waren oder Komponenten: Menge, Kosten in Ruf"
+msgstr "Station %s:\nVerfügbare Waren oder Komponenten: Menge, Ruf-Kosten"
 
 #: scripts/scenario_55_defenderHunter.lua:2962
 #, lua-format
@@ -2037,16 +2013,13 @@ msgctxt "trade-comms"
 msgid ""
 "Friendly stations often have food or medicine or both. Neutral stations may "
 "trade their goods for food, medicine or luxury."
-msgstr ""
-"Freundliche Stationen haben oft Lebensmittel, Medikamente (medicine) oder "
-"beides. Neutrale Stationen können ihre Waren gegen Lebensmittel, Medikamente "
-"(medicine) oder Luxusgüter eintauschen."
+msgstr "Freundliche Stationen haben oft Lebensmittel, Medizin oder beides. Neutrale Stationen können ihre Waren gegen Lebensmittel, Medizin oder Luxusgüter eintauschen."
 
 #: scripts/scenario_55_defenderHunter.lua:3097
 #, lua-format
 msgctxt "trade-comms"
 msgid "Station %s in sector %s has %s for %i reputation"
-msgstr "Station %s in Sektor %s hat %s für %i Ruf."
+msgstr "Station %s in Sektor %s bietet %s für %i Ruf."
 
 #: scripts/scenario_55_defenderHunter.lua:3102
 msgctxt "trade-comms"
@@ -2105,7 +2078,7 @@ msgstr "Wir haben ein Versorgungsschiff nach WP %d entsandt."
 #: scripts/scenario_55_defenderHunter.lua:3230
 msgctxt "needRep-comms"
 msgid "Not enough reputation!"
-msgstr "Nicht genug Ruf!"
+msgstr "Ihr Ruf ist nicht ausreichend."
 
 #: scripts/scenario_55_defenderHunter.lua:3219
 #, lua-format
@@ -2139,7 +2112,7 @@ msgstr "Was wollen Sie?"
 #: scripts/scenario_55_defenderHunter.lua:3275
 msgctxt "shipAssist-comms"
 msgid "Sir, how can we assist?"
-msgstr "Sir, wie können wir helfen?"
+msgstr "Wie können wir behilflich sein?"
 
 #: scripts/scenario_55_defenderHunter.lua:3277
 msgctxt "shipAssist-comms"
@@ -2181,7 +2154,7 @@ msgstr "Ich mache mich auf den Weg, um Ihnen zu helfen."
 #: scripts/scenario_55_defenderHunter.lua:3299
 msgctxt "shipAssist-comms"
 msgid "Report status"
-msgstr "Status melden."
+msgstr "Statusbericht"
 
 #: scripts/scenario_55_defenderHunter.lua:3300
 #, lua-format
@@ -2199,19 +2172,19 @@ msgstr "Schild: %d%%\n"
 #, lua-format
 msgctxt "shipAssist-comms"
 msgid "Front Shield: %d%%\n"
-msgstr "Frontschild: %d%%\n"
+msgstr "Frontschilde:  %d%%\n"
 
 #: scripts/scenario_55_defenderHunter.lua:3306
 #, lua-format
 msgctxt "shipAssist-comms"
 msgid "Rear Shield: %d%%\n"
-msgstr "Heckschild: %d%%\n"
+msgstr "Heckschilde: %d%%\n"
 
 #: scripts/scenario_55_defenderHunter.lua:3309
 #, lua-format
 msgctxt "shipAssist-comms"
 msgid "Shield %s: %d%%\n"
-msgstr "Schild %s: %d%%\n"
+msgstr "Schilde %s: %d%%\n"
 
 #: scripts/scenario_55_defenderHunter.lua:3315
 #, lua-format
@@ -2223,52 +2196,47 @@ msgstr "%s Raketen: %d/%d\n"
 #, lua-format
 msgctxt "shipAssist-comms"
 msgid "Dock at %s"
-msgstr "An %s andocken"
+msgstr "Docke bei %s an"
 
 #: scripts/scenario_55_defenderHunter.lua:3325
 #, lua-format
 msgctxt "shipAssist-comms"
 msgid "Docking at %s."
-msgstr "Wir docken bei %s."
+msgstr "Wir docken bei %s an."
 
 #: scripts/scenario_55_defenderHunter.lua:3336
 msgctxt "shipEnemy-comms"
 msgid "We will see to your destruction!"
-msgstr "Wir werden für eure Vernichtung sorgen!"
+msgstr "Wir sehen Ihrer Zerstörung entgegen!"
 
 #: scripts/scenario_55_defenderHunter.lua:3337
 msgctxt "shipEnemy-comms"
 msgid "Your bloodline will end here!"
-msgstr "Deine Blutlinie wird hier enden!"
+msgstr "Ihre Blutlinie wird hier enden!"
 
 #: scripts/scenario_55_defenderHunter.lua:3338
 msgctxt "shipEnemy-comms"
 msgid "Your feeble threats are meaningless."
-msgstr "Ihre schwachen Drohungen sind bedeutungslos."
+msgstr "Ihre schwächlichen Drohungen sind bedeutungslos."
 
 #: scripts/scenario_55_defenderHunter.lua:3340
 msgctxt "shipEnemy-comms"
 msgid ""
 "Ktzzzsss.\n"
 "You will DIEEee weaklingsss!"
-msgstr ""
-"Ktzzzsss.\n"
-"Ihr werdet steeerben, ihr Schwächlinge!"
+msgstr "Ktzzzsss.\nIhr werdet sterrrben, Schwächchchchlinge!!"
 
 #: scripts/scenario_55_defenderHunter.lua:3342
 msgctxt "shipEnemy-comms"
 msgid ""
 "We wish you no harm, but will harm you if we must.\n"
 "End of transmission."
-msgstr ""
-"Wir wünschen Ihnen nichts Böses, aber wir werden Ihnen etwas antun, wenn wir "
-"müssen.\n"
-"Ende der Übertragung."
+msgstr "Wir wollen Ihnen keinen Schaden zufügen, aber wir werden es tun, wenn wir müssen.\nEnde der Nachricht."
 
 #: scripts/scenario_55_defenderHunter.lua:3344
 msgctxt "shipEnemy-comms"
 msgid "Stay out of our way, or your death will amuse us extremely!"
-msgstr "Gehen Sie uns aus dem Weg, oder Ihr Tod wird uns sehr amüsieren!"
+msgstr "Gehen Sie uns aus dem Weg, oder Ihr Tod wird uns köstlich amüsieren!"
 
 #: scripts/scenario_55_defenderHunter.lua:3346
 msgctxt "shipEnemy-comms"
@@ -2279,19 +2247,12 @@ msgid ""
 "Generating appropriate response for target from human language archives.\n"
 ":Do not cross us:\n"
 "Communication halted."
-msgstr ""
-"Eins-Null-Eins.\n"
-"Keine binäre Kommunikation erkannt.\n"
-"Umschalten auf Universalsprache.\n"
-"Generierung der passenden Antwort für das Ziel aus dem menschlichen "
-"Spracharchiv.\n"
-":Verärgern Sie uns nicht:\n"
-"Kommunikation gestoppt."
+msgstr "Eins Null Eins.\n\nNichtbinäre Kommunikation erkannt. Wechsle zu universeller Sprache.\n\nGeneriere angemessene Antwort aus menschlichen Archiven.\n\n:Kommen Sie uns nicht in die Quere.:\n\nVerbindung beendet."
 
 #: scripts/scenario_55_defenderHunter.lua:3347
 msgctxt "shipEnemy-comms"
 msgid "EXECUTE: SELFDESTRUCT"
-msgstr "AUSFÜHREN DER SELBSTZERSTÖRUNG"
+msgstr "FÜHRE AUS: SELBSTZERSTÖRUNG"
 
 #: scripts/scenario_55_defenderHunter.lua:3348
 msgctxt "shipEnemy-comms"
@@ -2318,7 +2279,7 @@ msgstr ""
 #: scripts/scenario_55_defenderHunter.lua:3352
 msgctxt "shipEnemy-comms"
 msgid "<Transmit 'The Itsy-Bitsy Spider' on all wavelengths>"
-msgstr "<Senden von 'The Itsy-Bitsy Spider' auf allen Wellenlängen>"
+msgstr "<Senden von 'The Itsy-Bitsy Spider' auf allen Kanälen>"
 
 #: scripts/scenario_55_defenderHunter.lua:3353
 msgctxt "shipEnemy-comms"
@@ -2330,12 +2291,12 @@ msgstr ""
 #: scripts/scenario_55_defenderHunter.lua:3354
 msgctxt "shipEnemy-comms"
 msgid "The hive has greater priorities than exterminating pests."
-msgstr "Der Schwarm hat Wichtigeres zu tun als Schädlingsbekämpfung."
+msgstr "Der Schwarm hat wichtigeres zu tun als Schädlingsbekämpfung."
 
 #: scripts/scenario_55_defenderHunter.lua:3356
 msgctxt "shipEnemy-comms"
 msgid "Mind your own business!"
-msgstr "Kümmern Sie sich um Ihren eigenen Kram!"
+msgstr "Kümmern Sie sich um Ihre eigenen Angelegenheiten!"
 
 #: scripts/scenario_55_defenderHunter.lua:3375
 msgctxt "trade-comms"
@@ -2365,7 +2326,7 @@ msgstr "Gekauft: %s von %s."
 #: scripts/scenario_55_defenderHunter.lua:3531
 msgctxt "needRep-comms"
 msgid "Insufficient reputation for purchase"
-msgstr "Unzureichender Ruf für den Kauf."
+msgstr "Unzureichender Ruf für den Kauf"
 
 #: scripts/scenario_55_defenderHunter.lua:3451
 #, lua-format
@@ -2413,10 +2374,7 @@ msgctxt "ship-comms"
 msgid ""
 "We have nothing for you.\n"
 "Good day."
-msgstr ""
-"Wir können Ihnen nichts anbieten.\n"
-"\n"
-"Einen schönen Tag noch."
+msgstr "Wir können Ihnen nichts anbieten.\nEinen schönen Tag noch."
 
 #: scripts/scenario_55_defenderHunter.lua:3608
 #, lua-format
@@ -3029,7 +2987,7 @@ msgstr ""
 #: scripts/scenario_55_defenderHunter.lua:5930
 msgctxt "repairCrew-msgEngineer+"
 msgid "Medical team has revived one of your repair crew"
-msgstr "Das medizinische Team hat ein Mitglied der Reparaturcrew wiederbelebt."
+msgstr "Das medizinische Team hat ein Mitglied Ihrer Reparaturcrew wiederbelebt."
 
 #: scripts/scenario_55_defenderHunter.lua:5949
 msgctxt "coolant-msgEngineer"
@@ -3049,7 +3007,7 @@ msgstr "Ein Mitglied des Reparaturteams ist verstorben"
 #: scripts/scenario_55_defenderHunter.lua:6021
 msgctxt "repairCrew-msgEngineer+"
 msgid "One of your repair crew has perished"
-msgstr "Ein Mitglied Ihrer Reparaturmannschaft ist ums Leben gekommen."
+msgstr "Ein Mitglied des Reparaturteams ist verstorben"
 
 #: scripts/scenario_55_defenderHunter.lua:6038
 msgctxt "coolant-msgEngineer"
@@ -3174,7 +3132,7 @@ msgstr "Manuelle Kühlung"
 #: scripts/scenario_55_defenderHunter.lua:6173
 msgctxt "coolant-tabEngineer"
 msgid "Gathering Coolant"
-msgstr "Sammeln von Kühlmittel"
+msgstr "Kühlmittel wird aufgenommen"
 
 #: scripts/scenario_55_defenderHunter.lua:6190
 #, lua-format
@@ -3240,7 +3198,7 @@ msgstr "Fähnrich"
 #: scripts/scenario_55_defenderHunter.lua:6276
 msgctxt "msgMainscreen"
 msgid "Lieutenant"
-msgstr "Leutnant"
+msgstr "Lieutenant"
 
 #: scripts/scenario_55_defenderHunter.lua:6265
 #: scripts/scenario_55_defenderHunter.lua:6278
