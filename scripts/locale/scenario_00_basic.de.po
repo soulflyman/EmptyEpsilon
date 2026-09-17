@@ -320,6 +320,21 @@ msgid_plural "%s, you have %d minutes remaining."
 msgstr[0] "%s, Sie haben noch %d Minute Zeit."
 msgstr[1] "%s, Sie haben noch %d Minuten Zeit."
 
+# Compat: wording used up to and including release EE-2024.12.08
+msgctxt "time-incCall"
+msgid "%s, you have %d minute remaining."
+msgstr "%s, Sie haben noch %d Minute Zeit."
+
+# Compat: wording used up to and including release EE-2024.12.08
+msgctxt "time-incCall"
+msgid "%s, you have %d minutes remaining."
+msgstr "%s, Sie haben noch %d Minuten Zeit."
+
+# Compat: wording used up to and including release EE-2024.12.08
+msgctxt "time-incCall"
+msgid "%s, you have %d minutes remaining of mission time."
+msgstr "%s, Sie haben noch %d Minuten Missionszeit."
+
 #: scripts/scenario_00_basic.lua:559
 msgctxt "msgMainscreen&Spectbanner"
 msgid "Mission: FAILED (no friendlies left)"

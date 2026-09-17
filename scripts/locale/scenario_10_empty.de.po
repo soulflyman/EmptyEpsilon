@@ -29,25 +29,38 @@ msgstr ""
 "des Layouts in die Zwischenablage kopiert werden, um es in Szenarioskripts "
 "zu verwenden."
 
+# Compat: wording used up to and including release EE-2024.12.08
+msgid ""
+"Empty scenario, no enemies, no friendlies. Can be used by a GM player to "
+"setup a scenario in the GM screen. The F5 key can be used to copy the "
+"current layout to the clipboard for use in scenario scripts."
+msgstr ""
+"Leeres Szenario, keine Feinde, keine Verbündeten. Kann von einer "
+"Spielleitung genutzt werden, um ein Szenario auf dem SL-Schirm "
+"einzurichten. Mit der Taste F5 kann das aktuelle Layout in die "
+"Zwischenablage kopiert werden, um es in Szenarioskripts zu verwenden."
+
 #: scripts/scenario_10_empty.lua:102
 msgctxt "buttonGM"
 msgid "Reset to asteroids"
 msgstr "Auf Asteroiden zurücksetzen"
+
+# Compat: wording used up to and including release EE-2024.12.08
+msgctxt "buttonGM"
+msgid "Random asteroid field"
+msgstr "Zufälliges Asteroidenfeld"
 
 #: scripts/scenario_10_empty.lua:113
 msgctxt "buttonGM"
 msgid "Reset to nebulae"
 msgstr "Auf Nebel zurücksetzen"
 
+# Compat: wording used up to and including release EE-2024.12.08
+msgctxt "buttonGM"
+msgid "Random nebula field"
+msgstr "Zufälliges Nebelfeld"
+
 #: scripts/scenario_10_empty.lua:123
 msgctxt "buttonGM"
 msgid "Delete unselected"
 msgstr "Nicht ausgewählte löschen"
-
-#~ msgctxt "buttonGM"
-#~ msgid "Random asteroid field"
-#~ msgstr "Zufälliges Asteroidenfeld"
-
-#~ msgctxt "buttonGM"
-#~ msgid "Random nebula field"
-#~ msgstr "Zufälliges Nebelfeld"
