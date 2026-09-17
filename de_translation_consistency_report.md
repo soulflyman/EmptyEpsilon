@@ -94,8 +94,55 @@ Empfehlung: gezielt die als „Du" markierten Stellen in den o. g. Szenario-Date
 
 ## Empfehlung für weiteres Vorgehen
 
-1. Ein kleines **Terminologie-Glossar** (Englisch → verbindliche deutsche Übersetzung) für Schiffsklassen und wiederkehrende UI-Begriffe anlegen, dann `cpu_ship_diversification_scenario_utility.de.po` und `shiptemplates/OLD.de.po` danach abgleichen.
-2. Die 4 Anrede-Kleinschreibfehler („sie" → „Sie") sind risikolose Ein-Wort-Fixes.
-3. Den Tippfehler „3060Minuten" und „verkaufe" → „verkaufen" korrigieren.
-4. Kraylor-Pluralform vereinheitlichen.
-5. Die restlichen ~250 gefundenen Mehrfachübersetzungen liegen als Rohliste vor (`/tmp/.../inconsistent_raw.txt`, nicht dauerhaft) und können bei Bedarf vollständig aufgearbeitet werden — die meisten sind unkritische Stilvarianten zwischen Szenario-Dateien, keine Fehler.
+1. ~~Ein kleines **Terminologie-Glossar**~~ — erledigt: `resources/locale/de_terminology_glossary.md`, danach `cpu_ship_diversification_scenario_utility.de.po` abgeglichen.
+2. ~~Die 4 Anrede-Kleinschreibfehler („sie" → „Sie")~~ — erledigt.
+3. ~~Tippfehler „3060Minuten", „verkaufe" → „verkaufen", „keine neue Sonden", Leerzeichenfehler~~ — erledigt.
+4. ~~Kraylor-Pluralform vereinheitlichen~~ — erledigt.
+5. ~~Die restlichen gefundenen Mehrfachübersetzungen~~ — aufgearbeitet: 135 von 201 automatisiert erkannten Duplikat-Gruppen wurden auf die im Korpus bereits vorhandene Mehrheitsvariante vereinheitlicht (`scripts/locale/*.de.po`, Commits `41c137c7`–`46ae8062`). Die verbleibenden 66 Fälle sind unten dokumentiert (Anhang A).
+
+Status: Punkte 1–5 sind in Commits auf dem Branch `de-translation-completion` umgesetzt (siehe `git log`).
+
+---
+
+## Anhang A: Verbleibende Stilvarianten (bewusst nicht automatisch verändert)
+
+66 Duplikat-Gruppen (gleicher `msgid`, unterschiedliche `msgstr` über mehrere Dateien) wurden **nicht** automatisch vereinheitlicht, weil kein objektiver Gewinner ermittelbar war (echtes 50/50, oder die Varianten unterscheiden sich inhaltlich/im Kontext, nicht nur stilistisch). Diese können bei Bedarf manuell entschieden werden.
+
+### A.1 Echte Geschmacks-/Stilfragen (ca. 50/50, keine falsch)
+
+| MSGID | Datei A | Datei B |
+|---|---|---|
+| `We are under attack! No time for chatting!` | „…zu plaudern!" (comms_station u.a., 6x) | „…zum Plaudern!" (scenario_49_allies u.a., 6x) |
+| `Warp drive components` | „Komponenten des Warpantriebs" | „Warpantriebs-Komponenten" |
+| `Energy beam components` | „Laserstrahl-Komponenten" | „Laser-Komponenten" |
+| `Advanced Material(s) components` (2 Gruppen) | „Materialkomponenten" | „Material-komponenten" (Bindestrich-Fehltrennung, s. Empfehlung unten) |
+| `Android components` | „Androiden-Komponenten" | „Androidenkomponenten" |
+| `We provide a range of communication equipment…` | „Kommunikationsgeräten" | „Kommunikations-Geräten" |
+| `Established by the royal family…` | „Gründung durch…" | „Gegründet von…" |
+| `What are my current orders?` | „Was sind unsere derzeitigen Befehle?" (5x) | „Was sind meine aktuellen Aufträge?" (5x) |
+| `I need ordnance restocked` | „Ich benötige Nachschub an Munition." (5x) | „Wir benötigen Munition für unsere Waffensysteme." (5x) |
+| `We have no ordnance available for restock` | „Wir können Ihnen leider nichts anbieten" (4x) | „Wir haben keine Munition zum Auffüllen verfügbar." (4x) |
+| `\n   Homing` | „Zielsuchrakete" | „Zielsuchraketen" |
+| `Insufficient cargo space for purchase` | „…Kauf" (2x) | „…Kauf." (2x, nur Punkt) |
+| `Good day, officer!\nWhat can we do for you today?\n` | „…für Sie tun?" (3x) | „…für sie tun?" (3x, Anrede-Fehler wie oben — sollte eigentlich als Fehler behandelt werden, siehe A.3) |
+
+### A.2 Zwei ganze Szenario-Dateien mit durchgehend abweichender Formulierung
+
+`scenario_32_devour.de.po` und `scenario_55_defenderHunter.de.po` verwenden für denselben `stationServices-comms`-Textblock (Docking-Status, Sonden auffüllen, Hüllenreparatur, Energie laden, Sprungantrieb überladen, Systemreparaturen — ca. 15 zusammengehörige Strings) durchgängig zwei unterschiedliche Stilfamilien, z. B.:
+
+- `%s\nMay overcharge jump drive`: „Bietet Überladung des Sprungantriebs an" (devour) vs. „Kann den Sprungantrieb überladen" (defenderHunter)
+- `Your probe launch system has been repaired`: „Ihre Sonden-Abschussvorrichtung wurde repariert" vs. „Ihr Sonden-Startsystem wurde repariert."
+
+Das betrifft vermutlich beide Dateien komplett und wäre am sinnvollsten als eigene, gezielte Aufgabe zu bearbeiten (eine der beiden Stilfamilien als Standard wählen und konsequent durchziehen), nicht Fall für Fall.
+
+### A.3 Inhaltlich/kontextuell unterschiedliche Fälle (absichtlich übersprungen)
+
+- `Time | 30min` / `60min`: „30min"/„60min" (Kurzform) vs. „30 Minuten"/„60 Minuten" (ausgeschrieben) — wird an unterschiedlichen UI-Stellen verwendet, vermutlich absichtlich unterschiedlich lang.
+- `Different types of cargo or goods may be obtained…` (Fließtext, 3 Varianten): unterscheidet sich nicht nur stilistisch, sondern auch inhaltlich — „Jedes Spielerschiff" vs. „Jedes Schiff", Warenbeispiele mal groß/klein bzw. übersetzt/unübersetzt, „Medizin" vs. „Medikamente (medicine)".
+- Diverse Gossip-Texte (`scenario_49_allies` vs. `scenario_55_defenderHunter`, z. B. „Krak oder Kruk", „Lichten-Brüder", Uhrzeit „19:00" vs. „1900"): kleine Detailunterschiede in Wortwahl/Formatierung, nicht eindeutig falsch.
+- `Artifact with quantum biometric characteristics` / `…embedded chroniton particles` / `…bridging two parallel universes`: unterschiedliche, aber beide plausible Formulierungen ohne klaren Fehler.
+- `buttonGM | *` vs. `[*]`, `subclass | Carrier` „Trägerschiff" vs. „Träger": vermutlich UI-Platzgründe, nicht sicher ohne Blick auf den jeweiligen Bildschirm zu entscheiden.
+
+### A.4 Zusätzlich gefundener Einzelfall (nicht behoben)
+
+- `scienceDB | Cruiser`: in `scenario_53_escape.de.po:456` noch unübersetzt „Cruiser" (obwohl an anderer Stelle bereits „Kreuzer" verwendet wird) — im ursprünglichen Report nicht erfasst, da dort nur `cpu_ship_diversification_scenario_utility.de.po` explizit genannt war.
