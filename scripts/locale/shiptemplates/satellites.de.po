@@ -15,7 +15,7 @@ msgstr ""
 #: scripts/shiptemplates/satellites.lua:1
 msgctxt "ship"
 msgid "ANT 615"
-msgstr ""
+msgstr "ANT 615"
 
 #: scripts/shiptemplates/satellites.lua:1
 msgctxt "class"
