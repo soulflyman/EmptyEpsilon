@@ -223,7 +223,7 @@ msgstr "5 Sek. Ladezeit / HGBI"
 #: scripts/cpu_ship_diversification_scenario_utility.lua:1571
 msgctxt "scienceDB"
 msgid "Tube 0"
-msgstr " Raketen Front"
+msgstr "Raketen Front"
 
 #: scripts/cpu_ship_diversification_scenario_utility.lua:157
 msgctxt "scienceDB"

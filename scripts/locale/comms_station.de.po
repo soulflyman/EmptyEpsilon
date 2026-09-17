@@ -62,7 +62,7 @@ msgstr "Bitte füllen Sie unsere EMPs wieder auf."
 #, lua-format
 msgctxt "ammo-comms"
 msgid "%s (%d rep each)"
-msgstr "%s (%d Ruf jeweils)"
+msgstr "%s (jeweils %d Ruf)"
 
 #: scripts/comms_station.lua:124
 msgctxt "station-comms"
@@ -82,7 +82,7 @@ msgstr "Wir handeln nicht mit Störwaffen."
 #: scripts/comms_station.lua:135
 msgctxt "ammo-comms"
 msgid "We do not deal in those weapons."
-msgstr "Mit dieser Art Waffen handeln wir nicht."
+msgstr "Wir handeln nicht mit solchen Waffen."
 
 #: scripts/comms_station.lua:146
 msgctxt "ammo-comms"
@@ -92,7 +92,7 @@ msgstr "Alle Nukes sind geladen."
 #: scripts/comms_station.lua:148
 msgctxt "ammo-comms"
 msgid "Sorry, sir, but you are as fully stocked as I can allow."
-msgstr "Es tut mir leid, aber dieser Vorrat ist bereits randvoll."
+msgstr "Es tut mir leid, aber Sie haben bereits das zulässige Höchstlimit erreicht."
 
 #: scripts/comms_station.lua:151 scripts/comms_station.lua:165
 #: scripts/comms_station.lua:229 scripts/comms_station.lua:234
@@ -104,21 +104,19 @@ msgstr "Zurück"
 #: scripts/comms_station.lua:154
 msgctxt "needRep-comms"
 msgid "Not enough reputation."
-msgstr "Nicht genug Ruf."
+msgstr "Ihr Ruf ist nicht ausreichend."
 
 #: scripts/comms_station.lua:160
 msgctxt "ammo-comms"
 msgid "You are fully loaded and ready to explode things."
-msgstr "Sie sind voll aufgestockt und bereit Dinge in die Luft zu sprengen."
+msgstr "Sie sind voll geladen und bereit, Dinge in die Luft zu jagen."
 
 #: scripts/comms_station.lua:162
 msgctxt "ammo-comms"
 msgid ""
 "We generously resupplied you with some weapon charges.\n"
 "Put them to good use."
-msgstr ""
-"Wir haben ihren Munitionsvorrat entsprechend aufgefüllt.\n"
-"Setzen Sie die Geschosse weise ein."
+msgstr "Wir haben Sie großzügig mit einigen Waffen ausgestattet.\nSetzen Sie sie gut ein."
 
 #: scripts/comms_station.lua:176
 #, lua-format
@@ -144,24 +142,23 @@ msgstr ""
 #, lua-format
 msgctxt "stationAssist-comms"
 msgid "Can you send a supply drop? (%d rep)"
-msgstr "Können Sie uns eine Munitionslieferung schicken? (%d Ruf)"
+msgstr "Können Sie eine Versorgungslieferung schicken? (%d Ruf)"
 
 #: scripts/comms_station.lua:194
 #, lua-format
 msgctxt "stationAssist-comms"
 msgid "Please send reinforcements! (%d rep)"
-msgstr "Bitte senden Sie Verstärkung! (%d Ruf)"
+msgstr "Bitte schicken Sie Verstärkung! (%d Ruf)"
 
 #: scripts/comms_station.lua:209
 msgctxt "stationAssist-comms"
 msgid "You need to set a waypoint before you can request backup."
-msgstr ""
-"Sie müssen einen Wegpunkt setzen, bevor Sie eine Lieferung anfordern können."
+msgstr "Sie müssen einen Wegpunkt setzen, bevor Sie Unterstützung anfordern können."
 
 #: scripts/comms_station.lua:211
 msgctxt "stationAssist-comms"
 msgid "To which waypoint should we deliver your supplies?"
-msgstr "An welchen Wegpunkt sollen wir die Lieferung schicken?"
+msgstr "Zu welchem Wegpunkt sollen wir Ihre Versorgungslieferung schicken?"
 
 #: scripts/comms_station.lua:224
 #, lua-format
@@ -172,7 +169,7 @@ msgstr "Wir haben ein Versorgungsschiff nach %s geschickt."
 #: scripts/comms_station.lua:226 scripts/comms_station.lua:286
 msgctxt "needRep-comms"
 msgid "Not enough reputation!"
-msgstr "Nicht genug Ruf!"
+msgstr "Ihr Ruf ist nicht ausreichend."
 
 #: scripts/comms_station.lua:242
 msgctxt "stationAssist-comms"

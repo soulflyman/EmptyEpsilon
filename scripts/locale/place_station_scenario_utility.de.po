@@ -78,7 +78,7 @@ msgstr "Komponenten des Warpantriebs"
 #: scripts/place_station_scenario_utility.lua:464
 msgctxt "stationGeneralInfo-comms"
 msgid "We provide warp drive engines and components"
-msgstr "Wir bieten Warpantriebe und Komponenten."
+msgstr "Wir bieten Warpantriebe und -komponenten."
 
 #: scripts/place_station_scenario_utility.lua:465
 msgctxt "stationStory-comms"
@@ -190,7 +190,7 @@ msgstr "Die älteste Station des Quadranten."
 #: scripts/place_station_scenario_utility.lua:689
 msgctxt "scienceDescription-station"
 msgid "Energy Beam Components"
-msgstr "Laserstrahl-Komponenten"
+msgstr "Laser-Komponenten"
 
 #: scripts/place_station_scenario_utility.lua:690
 msgctxt "stationGeneralInfo-comms"
@@ -203,10 +203,7 @@ msgid ""
 "Station named after Guglielmo Marconi an Italian inventor from early 20th "
 "century Earth who, along with Nicolo Tesla, claimed to have invented a death "
 "ray or particle beam weapon"
-msgstr ""
-"Station benannt nach Guglielmo Marconi, einem italienischen Erfinder aus dem "
-"frühen 20. Jahrhundert, der zusammen mit Nicolo Tesla behauptete, einen "
-"Todesstrahl oder eine Teilchenstrahlwaffe erfunden zu haben."
+msgstr "Station benannt nach Guglielmo Marconi, einem italienischen Erfinder aus dem frühen 20. Jahrhundert, der zusammen mit Nicola Tesla behauptete, einen Todesstrahl oder eine Teilchenstrahlwaffe erfunden zu haben."
 
 #: scripts/place_station_scenario_utility.lua:726
 msgctxt "scienceDescription-station"
@@ -260,7 +257,7 @@ msgstr "Energie- und Teilchenstrahlkomponenten"
 #: scripts/place_station_scenario_utility.lua:803
 msgctxt "stationGeneralInfo-comms"
 msgid "We fabricate general and specialized components for ship beam systems"
-msgstr "Wir stellen allgemeine und spezielle Komponenten für Laserwaffen her."
+msgstr "Wir stellen allgemeine und spezialisierte Komponenten für Laserwaffen her."
 
 #: scripts/place_station_scenario_utility.lua:804
 msgctxt "stationStory-comms"
@@ -308,9 +305,7 @@ msgstr "Bergbau"
 msgctxt "stationGeneralInfo-comms"
 msgid ""
 "We mine nearby asteroids for precious minerals and process them for sale"
-msgstr ""
-"Wir bauen nahe gelegene Asteroiden für wertvolle Mineralien ab und "
-"verarbeiten sie für den Verkauf."
+msgstr "Wir bauen nahe gelegene Asteroiden für wertvolle Mineralien ab, die wir dann für den Verkauf aufbereiten."
 
 #: scripts/place_station_scenario_utility.lua:881
 msgctxt "stationStory-comms"
@@ -333,11 +328,7 @@ msgctxt "stationGeneralInfo-comms"
 msgid ""
 "We study the cosmos and map stellar phenomena. We also track moving "
 "asteroids. Look out! Just kidding"
-msgstr ""
-"Wir untersuchen den Kosmos und kartieren stellare Phänomene. Wir verfolgen "
-"auch bewegliche Asteroiden... Passt auf! \n"
-"...\n"
-"Nur ein Scherz ;)."
+msgstr "Wir untersuchen den Kosmos und kartieren stellare Phänomene. Wir verfolgen auch die Bewegung von Asteroiden... Achtung!!\n...\nNur ein Scherz ;)."
 
 #: scripts/place_station_scenario_utility.lua:918
 msgctxt "stationStory-comms"
@@ -353,7 +344,7 @@ msgstr ""
 #: scripts/place_station_scenario_utility.lua:2141
 msgctxt "scienceDescription-station"
 msgid "Autodoc components"
-msgstr "Auto-Doc-Komponenten"
+msgstr "Autodoc-Komponenten"
 
 #: scripts/place_station_scenario_utility.lua:955
 msgctxt "stationStory-comms"
@@ -375,7 +366,7 @@ msgstr "Sport und Unterhaltung in der Schwerelosigkeit"
 #: scripts/place_station_scenario_utility.lua:991
 msgctxt "stationGeneralInfo-comms"
 msgid "Come take in a game or two or perhaps see a show"
-msgstr "Besuchen Sie ein oder zwei Spiele oder vielleicht auch eine Show."
+msgstr "Besuchen Sie ein oder zwei Spiele oder vielleicht eine Show."
 
 #: scripts/place_station_scenario_utility.lua:992
 msgctxt "stationStory-comms"
@@ -414,7 +405,7 @@ msgstr ""
 #: scripts/place_station_scenario_utility.lua:1064
 msgctxt "scienceDescription-station"
 msgid "Shield and armor components and research"
-msgstr "Schild- und Panzerungs-Komponenten sowie Forschung"
+msgstr "Schild- und Panzerungskomponenten und Forschung"
 
 #: scripts/place_station_scenario_utility.lua:1065
 msgctxt "stationGeneralInfo-comms"
@@ -678,7 +669,7 @@ msgstr ""
 #: scripts/place_station_scenario_utility.lua:1545
 msgctxt "stationGeneralInfo-comms"
 msgid "Androids, their parts, maintenance and recylcling"
-msgstr "Androiden, ihre Teile, Wartung und Wiederverwertung"
+msgstr "Androiden, ihre Bauteile, Wartung und Wiederverwertung"
 
 #: scripts/place_station_scenario_utility.lua:1546
 msgctxt "stationStory-comms"
@@ -716,9 +707,7 @@ msgstr "Diplomatische Ausbildung"
 msgctxt "stationGeneralInfo-comms"
 msgid ""
 "The premeire academy for leadership and diplomacy training in the region"
-msgstr ""
-"Die führende Akademie für Diplomatie-Ausbildung und Ausbildung von "
-"Führungskräften in der Region. "
+msgstr "Die führende Akademie für die Ausbildung von Führungskräften und Diplomatie in der Region."
 
 #: scripts/place_station_scenario_utility.lua:1620
 msgctxt "stationStory-comms"
@@ -787,10 +776,7 @@ msgid ""
 "The nomadic Skandars have set up at this station to practice their "
 "entertainment and maintenance skills as well as build a community where "
 "Skandars can relax"
-msgstr ""
-"Die nomadischen Skandars haben sich in dieser Station niedergelassen, um "
-"ihre Unterhaltungs- und Wartungsfähigkeiten zu trainieren und eine "
-"Gemeinschaft aufzubauen, in der sich die Skandars entspannen können."
+msgstr "Die nomadischen Skandare haben sich in dieser Station niedergelassen, um ihre Unterhaltungs- und Wartungsfähigkeiten zu trainieren und eine Gemeinschaft aufzubauen, in der sich die Skandare entspannen können."
 
 #: scripts/place_station_scenario_utility.lua:1767
 msgctxt "stationGeneralInfo-comms"
@@ -889,12 +875,7 @@ msgid ""
 "naval models are researched, designed and built right here on this station. "
 "Our design goals seek to make the space faring experience as simple as "
 "possible given the tremendous capabilities of the modern naval vessel"
-msgstr ""
-"Wir befassen uns mit allen Aspekten des Baus und der Wartung von "
-"Marineschiffen. Viele der Marinemodelle werden direkt hier auf dieser "
-"Station erforscht, entworfen und gebaut. Unser Ziel ist es, die Raumfahrt "
-"angesichts der enormen Fähigkeiten moderner Marineschiffe so einfach wie "
-"möglich zu gestalten."
+msgstr "Wir befassen uns mit allen Aspekten des Baus und der Wartung von Navyschiffen. Viele der Modelle werden direkt hier auf dieser Station erforscht, entworfen und gebaut. Unser Ziel ist es, die Raumfahrt angesichts der enormen Fähigkeiten moderner Schiffe so einfach wie möglich zu gestalten."
 
 #: scripts/place_station_scenario_utility.lua:1984
 msgctxt "scienceDescription-station"
@@ -906,9 +887,7 @@ msgctxt "stationGeneralInfo-comms"
 msgid ""
 "We specialize in the esoteric components necessary to make warp drives "
 "function properly"
-msgstr ""
-"Wir sind auf die esoterischen Komponenten spezialisiert, die für das "
-"ordnungsgemäße Funktionieren von Warp-Antrieben erforderlich sind."
+msgstr "Wir sind auf die besonderen Komponenten spezialisiert, die für das ordnungsgemäße Funktionieren von Warp-Antrieben erforderlich sind."
 
 #: scripts/place_station_scenario_utility.lua:1986
 msgctxt "stationStory-comms"
@@ -1211,7 +1190,7 @@ msgstr ""
 #: scripts/place_station_scenario_utility.lua:2557
 msgctxt "stationGeneralInfo-comms"
 msgid "We mine nearby asteroids for precious minerals"
-msgstr "Wir bauen nahe gelegene Asteroiden nach wertvollen Mineralien ab."
+msgstr "Wir bauen nahe gelegene Asteroiden für wertvolle Mineralien ab."
 
 #: scripts/place_station_scenario_utility.lua:2786
 msgctxt "stationGeneralInfo-comms"
@@ -1264,7 +1243,7 @@ msgstr "Niedrig-Schwerkraft Forschung"
 #: scripts/place_station_scenario_utility.lua:3178
 msgctxt "stationGeneralInfo-comms"
 msgid "Get your energy here! Grab a drink before you go!"
-msgstr "Holen Sie sich hier Ihre Energie! Hol dir einen Drink, bevor du gehst!"
+msgstr "Holen Sie sich hier Ihre Energie! Und genehmigen Sie sich einen Drink bevor Sie gehen!"
 
 #: scripts/place_station_scenario_utility.lua:3210
 msgctxt "scienceDescription-station"

@@ -15,7 +15,7 @@ msgstr ""
 #: scripts/comms_ship.lua:38
 msgctxt "shipAssist-comms"
 msgid "What do you want?"
-msgstr "Was wünschen Sie?"
+msgstr "Was wollen Sie?"
 
 #: scripts/comms_ship.lua:40
 msgctxt "shipAssist-comms"
@@ -30,7 +30,7 @@ msgstr "Verteidigen Sie einen Wegpunkt"
 #: scripts/comms_ship.lua:46
 msgctxt "shipAssist-comms"
 msgid "No waypoints set. Please set a waypoint first."
-msgstr "Keine Wegpunkte gesetzt. Bitte setzen sie zunächst einen Wegpunkt."
+msgstr "Keine Wegpunkte gesetzt. Bitte setzen Sie zuerst einen Wegpunkt."
 
 #: scripts/comms_ship.lua:47 scripts/comms_ship.lua:57
 #: scripts/comms_ship.lua:70 scripts/comms_ship.lua:78
@@ -58,12 +58,12 @@ msgstr "Wir sind unterwegs, um bei %s zu unterstützen."
 #: scripts/comms_ship.lua:66
 msgctxt "shipAssist-comms"
 msgid "Assist me"
-msgstr "Helfen Sie uns"
+msgstr "Unterstützen Sie uns."
 
 #: scripts/comms_ship.lua:68
 msgctxt "shipAssist-comms"
 msgid "Heading toward you to assist."
-msgstr "Wir sind unterwegs, um Sie zu unterstützen."
+msgstr "Ich mache mich auf den Weg, um Ihnen zu helfen."
 
 #: scripts/comms_ship.lua:75
 msgctxt "shipAssist-comms"
@@ -161,7 +161,7 @@ msgstr "Schadhafter Befehl entdeckt. Erfasse Quelle."
 #: scripts/comms_ship.lua:130
 msgctxt "shipEnemy-comms"
 msgid "External command ignored."
-msgstr "Externer Befehl ignoriert."
+msgstr "Externer Befehl wird ignoriert."
 
 #: scripts/comms_ship.lua:132
 msgctxt "shipEnemy-comms"
@@ -185,9 +185,7 @@ msgstr "<Sendet 'The Itsy-Bitsy Spider' auf allen Frequenzen>"
 #: scripts/comms_ship.lua:136
 msgctxt "shipEnemy-comms"
 msgid "We do not need permission to pluck apart such an insignificant threat."
-msgstr ""
-"Wir brauchen keine Erlaubnis um so eine unbedeutende Bedrohung zu "
-"zerpflücken."
+msgstr "Wir brauchen keine Erlaubnis, um eine so unbedeutende Bedrohung zu zerpflücken."
 
 #: scripts/comms_ship.lua:137
 msgctxt "shipEnemy-comms"
@@ -231,7 +229,7 @@ msgstr "Hülle: %d%%\n"
 #, lua-format
 msgctxt "shipAssist-comms"
 msgid "Shield: %d%%\n"
-msgstr "Schilde: %d%%\n"
+msgstr "Schild: %d%%\n"
 
 #: scripts/comms_ship.lua:192
 #, lua-format
@@ -243,9 +241,7 @@ msgstr "Frontschilde:  %d%%\n"
 #, lua-format
 msgctxt "shipAssist-comms"
 msgid "Rear Shield: %d%%\n"
-msgstr ""
-"Heckschilde: %d%%\n"
-"\n"
+msgstr "Heckschilde: %d%%\n"
 
 #: scripts/comms_ship.lua:196
 #, lua-format
