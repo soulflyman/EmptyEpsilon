@@ -1073,13 +1073,13 @@ msgstr "Könnten Sie HGBIs zur Verfügung stellen? ("
 #: scripts/scenario_32_devour.lua:2419 scripts/scenario_32_devour.lua:3438
 msgctxt "stationServices-comms"
 msgid "Docking services status"
-msgstr "Dock-Dienste: Übersicht"
+msgstr "Status der Andockdienste"
 
 #: scripts/scenario_32_devour.lua:2420
 #, lua-format
 msgctxt "stationServices-comms"
 msgid "Station %s docking services status:"
-msgstr "Übersicht der Dienste im Dock von Station %s:"
+msgstr "Status der Andockdienste der Station %s:"
 
 #: scripts/scenario_32_devour.lua:2422 scripts/scenario_32_devour.lua:3443
 #, lua-format
@@ -1089,7 +1089,7 @@ msgid ""
 "Replenish scan probes."
 msgstr ""
 "%s\n"
-"Auffüllen des Sonden-Vorrats"
+"Scan-Sonden auffüllen."
 
 #: scripts/scenario_32_devour.lua:2426 scripts/scenario_32_devour.lua:3447
 msgctxt "stationServices-comms"
@@ -1134,7 +1134,7 @@ msgid ""
 "Ship hull repair."
 msgstr ""
 "%s\n"
-"Reparatur der Schiffshülle"
+"Reparatur der Schiffshülle."
 
 #: scripts/scenario_32_devour.lua:2439 scripts/scenario_32_devour.lua:3460
 msgctxt "stationServices-comms"
@@ -1165,7 +1165,7 @@ msgid ""
 "Recharge ship energy stores."
 msgstr ""
 "%s\n"
-"Aufladung der Energiespeicher"
+"Laden der Energiespeicher des Schiffes."
 
 #: scripts/scenario_32_devour.lua:2452 scripts/scenario_32_devour.lua:3473
 msgctxt "stationServices-comms"
@@ -1200,7 +1200,7 @@ msgid ""
 "May overcharge jump drive"
 msgstr ""
 "%s\n"
-"Bietet Überladung des Sprungantriebs an"
+"Kann den Sprungantrieb überladen"
 
 #: scripts/scenario_32_devour.lua:2464 scripts/scenario_32_devour.lua:3490
 #, lua-format
@@ -1210,7 +1210,7 @@ msgid ""
 "May repair probe launch system"
 msgstr ""
 "%s\n"
-"Bietet Reparatur der Sonden-Abschussvorrichtung an"
+"Kann das Sonden-Startsystem reparieren"
 
 #: scripts/scenario_32_devour.lua:2467 scripts/scenario_32_devour.lua:3493
 #, lua-format
@@ -1220,7 +1220,7 @@ msgid ""
 "May repair hacking system"
 msgstr ""
 "%s\n"
-"Bietet Reparatur des Hacking-Systems an"
+"Kann das Hacking-System reparieren"
 
 #: scripts/scenario_32_devour.lua:2470 scripts/scenario_32_devour.lua:3496
 #, lua-format
@@ -1230,7 +1230,7 @@ msgid ""
 "May repair scanners"
 msgstr ""
 "%s\n"
-"Bietet Reparatur des Scan-Systems an"
+"Kann Scanner reparieren"
 
 #: scripts/scenario_32_devour.lua:2473 scripts/scenario_32_devour.lua:3499
 #, lua-format
@@ -1240,7 +1240,7 @@ msgid ""
 "May repair combat maneuver"
 msgstr ""
 "%s\n"
-"Bietet Reparatur des Ausweichmanöver--Systems an"
+"Kann Ausweichmanöver reparieren"
 
 #: scripts/scenario_32_devour.lua:2476 scripts/scenario_32_devour.lua:3502
 #, lua-format
@@ -1250,7 +1250,7 @@ msgid ""
 "May repair self destruct system"
 msgstr ""
 "%s\n"
-"Bietet Reparatur des Selbstzerstörungs-Systems an"
+"Kann die Selbstzerstörung reparieren."
 
 #: scripts/scenario_32_devour.lua:2479 scripts/scenario_32_devour.lua:2499
 #: scripts/scenario_32_devour.lua:2536 scripts/scenario_32_devour.lua:2553
@@ -1317,7 +1317,7 @@ msgstr "Zurück"
 #: scripts/scenario_32_devour.lua:2488
 msgctxt "stationServices-comms"
 msgid "Overcharge Jump Drive (10 Rep)"
-msgstr "Sprungantrieb überladen (10 Ruf)"
+msgstr "Überlade Sprungantrieb (10 Ruf)"
 
 #: scripts/scenario_32_devour.lua:2490 scripts/scenario_32_devour.lua:2527
 #: scripts/scenario_32_devour.lua:2544 scripts/scenario_32_devour.lua:2561
@@ -1334,7 +1334,7 @@ msgstr "Für diese Aktion müssen Sie angedockt bleiben."
 #, lua-format
 msgctxt "stationServices-comms"
 msgid "Your jump drive has been overcharged to %ik"
-msgstr "Ihr Sprungantrieb wurde auf %i 000 überladen"
+msgstr "Ihr Sprungantrieb ist auf %ik überladen worden"
 
 #: scripts/scenario_32_devour.lua:2497 scripts/scenario_32_devour.lua:2534
 #: scripts/scenario_32_devour.lua:2551 scripts/scenario_32_devour.lua:2568
@@ -1353,7 +1353,7 @@ msgstr "Ruf nicht ausreichend"
 #: scripts/scenario_32_devour.lua:2521
 msgctxt "stationServices-comms"
 msgid "Repair ship system"
-msgstr "Schiffssystem reparieren"
+msgstr "Reparatur von Schiffssystemen"
 
 #: scripts/scenario_32_devour.lua:2522
 #, lua-format
@@ -1376,7 +1376,7 @@ msgstr "Sonden-Abschussvorrichtung reparieren (%s Ruf)"
 #: scripts/scenario_32_devour.lua:2532
 msgctxt "stationServices-comms"
 msgid "Your probe launch system has been repaired"
-msgstr "Ihre Sonden-Abschussvorrichtung wurde repariert"
+msgstr "Ihr Sonden-Startsystem wurde repariert."
 
 #: scripts/scenario_32_devour.lua:2542
 #, lua-format
@@ -1387,7 +1387,7 @@ msgstr "Hackingsystem reparieren (%s Ruf)"
 #: scripts/scenario_32_devour.lua:2549
 msgctxt "stationServices-comms"
 msgid "Your hack system has been repaired"
-msgstr "Ihr Hackingsystem wurde repariert"
+msgstr "Ihr Hacking-System wurde repariert."
 
 #: scripts/scenario_32_devour.lua:2559
 #, lua-format
@@ -1398,7 +1398,7 @@ msgstr "Scansystem reparieren (%s Ruf)"
 #: scripts/scenario_32_devour.lua:2566
 msgctxt "stationServices-comms"
 msgid "Your scanners have been repaired"
-msgstr "Ihre Scanner wurden repariert"
+msgstr "Ihre Scanner wurden repariert."
 
 #: scripts/scenario_32_devour.lua:2577
 #, lua-format
@@ -1409,7 +1409,7 @@ msgstr "Ausweichmanöver-System reparieren (%s Ruf)"
 #: scripts/scenario_32_devour.lua:2584
 msgctxt "stationServices-comms"
 msgid "Your combat maneuver has been repaired"
-msgstr "Ihr Ausweichmanöversystem wurde repariert"
+msgstr "Ihr Ausweichmanöversystem wurde repariert."
 
 #: scripts/scenario_32_devour.lua:2595
 #, lua-format
@@ -1420,7 +1420,7 @@ msgstr "Selbstzerstörungs-System reparieren (%s Ruf)"
 #: scripts/scenario_32_devour.lua:2602
 msgctxt "stationServices-comms"
 msgid "Your self destruct system has been repaired"
-msgstr "Ihr Selbstzerstörungssystem wurde repariert"
+msgstr "Ihre Selbstzerstörung wurde repariert."
 
 #: scripts/scenario_32_devour.lua:2614 scripts/scenario_32_devour.lua:3366
 msgctxt "station-comms"
@@ -2544,8 +2544,7 @@ msgstr "Status der primären Dienstleistungen von Station %s:"
 #: scripts/scenario_32_devour.lua:3461
 msgctxt "stationServices-comms"
 msgid "Hull repair automation unavailable whie it is undergoing maintenance."
-msgstr ""
-"Automatische Hüllenreparatur aufgrund von Wartungsarbeiten nicht verfügbar"
+msgstr "Hüllenreparaturautomatik nicht verfügbar, da sie gerade gewartet wird."
 
 #: scripts/scenario_32_devour.lua:3484
 msgctxt "stationServices-comms"
@@ -3729,12 +3728,12 @@ msgstr "Das Ausweichmanöver-System wurde beschädigt."
 #: scripts/scenario_32_devour.lua:6344
 msgctxt "damage-msgEngineer"
 msgid "Self destruct system has been damaged"
-msgstr "Selbstzerstörungs-System wurde beschädigt"
+msgstr "Die Selbstzerstörung wurde beschädigt."
 
 #: scripts/scenario_32_devour.lua:6347
 msgctxt "damage-msgEngineer+"
 msgid "Self destruct system has been damaged"
-msgstr "Selbstzerstörungs-System wurde beschädigt"
+msgstr "Die Selbstzerstörung wurde beschädigt."
 
 #: scripts/scenario_32_devour.lua:6350
 msgctxt "damage-msgDamageControl"

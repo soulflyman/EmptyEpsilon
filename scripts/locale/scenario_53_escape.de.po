@@ -453,7 +453,7 @@ msgstr ""
 #: scripts/scenario_53_escape.lua:384
 msgctxt "scienceDB"
 msgid "Cruiser"
-msgstr "Cruiser"
+msgstr "Kreuzer"
 
 #: scripts/scenario_53_escape.lua:386
 msgctxt "scienceDB"
